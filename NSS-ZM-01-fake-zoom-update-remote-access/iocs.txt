@@ -1,0 +1,16 @@
+# NSS-ZM-01: Fake Zoom update page installs a self-hosted ScreenConnect client: technical analysis
+# https://nsshq.com/research/fake-zoom-update-remote-access
+# Published 2026-11-12. TLP:CLEAR. Licence CC BY 4.0, credit Nexus Sentinel Station (NSS).
+# DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
+# Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
+#   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
+# 9 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+zoom-0xcdlive-join-00ccxxd[.]live
+hxxps://min[.]garincon[.]com/Bin/ScreenConnect.ClientSetup.msi
+min[.]garincon[.]com
+garincon[.]com
+524ff283-2094-4f98-b68d-f24f61c5f8fa[.]dotinicon[.]com
+dotinicon[.]com
+45[.]87[.]61[.]155
+c98e783442a4ca72244f3bb1d5f8ad28bc1f3f94db8a5afac9597a7c870ca590
+e6142c9c458795d1fea5e18288c1adfb

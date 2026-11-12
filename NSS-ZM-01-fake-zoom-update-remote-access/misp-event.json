@@ -1,0 +1,140 @@
+{
+  "Event": {
+    "uuid": "f4fd3ace-c79e-55ca-9c5c-17d4604a01ca",
+    "info": "NSS-ZM-01: Fake Zoom update page installs a self-hosted ScreenConnect client: technical analysis",
+    "date": "2026-11-12",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": false,
+    "timestamp": "1794441600",
+    "Orgc": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Org": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Tag": [
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "type:OSINT"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "cb2cd5b0-780b-562c-a752-12d4abcebee3",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "zoom-0xcdlive-join-00ccxxd.live",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "The lure page: a fake Zoom update window",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0da26846-8daa-5b41-b8e5-e0deda91ed77",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://min.garincon.com/Bin/ScreenConnect.ClientSetup.msi",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "The installer the Update button downloads",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d9745fc9-62bd-52af-b0d6-7e7d7ade4cf9",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "min.garincon.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Download host and the operator's remote-access web portal",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "533c2dd7-572f-54b4-86d6-aed8babb4744",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "garincon.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered domain of the download host",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8bd13e3d-e805-544e-b473-7a58a74854bb",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "524ff283-2094-4f98-b68d-f24f61c5f8fa.dotinicon.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Connect-back host set inside the installer, port 8041",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7e494e00-3560-5f64-b8e4-a167b241c6c0",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "dotinicon.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered domain of the connect-back host",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a03ff3fc-24c6-5e54-b459-6b4f5632b606",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "45.87.61.155",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "The server behind both: relay on port 8041 and origin of the download portal",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fe15217b-9695-54fa-b564-66a09c6facfc",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "value": "c98e783442a4ca72244f3bb1d5f8ad28bc1f3f94db8a5afac9597a7c870ca590",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "SHA-256 of ScreenConnect.ClientSetup.msi, 15,216,640 bytes, client id 230f9b38c3c088fe",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f5db0236-c5fe-5862-9581-95a8cb1e9a5a",
+        "type": "md5",
+        "category": "Payload delivery",
+        "value": "e6142c9c458795d1fea5e18288c1adfb",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "MD5 of the same installer",
+        "timestamp": "1794441600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aeaf7a89-338a-588c-bce3-b89d342d2751",
+        "type": "link",
+        "category": "External analysis",
+        "value": "https://nsshq.com/research/fake-zoom-update-remote-access",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "NSS-ZM-01 on nsshq.com",
+        "timestamp": "1794441600",
+        "disable_correlation": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+indicator,type,note,registered_utc,registrar,first_recorded_by_nss_utc
+zoom-0xcdlive-join-00ccxxd.live,domain,The lure page: a fake Zoom update window,2026-11-11T14:31:34Z,"NameCheap, Inc.",2026-11-12T04:08:47Z
+https://min.garincon.com/Bin/ScreenConnect.ClientSetup.msi,url,The installer the Update button downloads,,,
+min.garincon.com,domain,Download host and the operator's remote-access web portal,,,
+garincon.com,domain,Registered domain of the download host,2026-10-12T17:51:24Z,"Ultahost, Inc.",
+524ff283-2094-4f98-b68d-f24f61c5f8fa.dotinicon.com,domain,"Connect-back host set inside the installer, port 8041",,,
+dotinicon.com,domain,Registered domain of the connect-back host,2026-09-09T14:52:17Z,"Ultahost, Inc.",
+45.87.61.155,ipv4,The server behind both: relay on port 8041 and origin of the download portal,,,
+c98e783442a4ca72244f3bb1d5f8ad28bc1f3f94db8a5afac9597a7c870ca590,hash,"SHA-256 of ScreenConnect.ClientSetup.msi, 15,216,640 bytes, client id 230f9b38c3c088fe",,,
+e6142c9c458795d1fea5e18288c1adfb,hash,MD5 of the same installer,,,

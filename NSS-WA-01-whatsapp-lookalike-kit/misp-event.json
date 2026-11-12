@@ -1,0 +1,613 @@
+{
+  "Event": {
+    "uuid": "0cfbd011-acf0-551a-ba42-774d5051c1a8",
+    "info": "NSS-WA-01: WhatsApp lookalike kit: technical analysis",
+    "date": "2026-11-10",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": false,
+    "timestamp": "1794268800",
+    "Orgc": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Org": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Tag": [
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "type:OSINT"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "59c2daba-2b76-5a33-bd0c-1adf364eeb7d",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "occ-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d9e56398-89fb-5dc4-93e3-4ea116da44fc",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "occ-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b0baecaf-5efb-5f4e-9625-29afe02fa5d4",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "occ-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9b0050ff-b37f-5126-9e36-7d6ea9aadeed",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "oce-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4a1c7eb7-ca2d-5eab-853a-846a159b45de",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "oce-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "61fffa37-8d3a-5f53-b121-1dfd56201a9e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "oce-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ad67991a-10d5-5a3c-8e87-bba39590c315",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocz-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "58fec120-bbb6-5fec-865e-8442b285d2fe",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esx-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ed21630f-34ec-5163-bfbe-6c333beed7e6",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esx-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "44731794-f1da-59fb-84bf-9cbbfa57de95",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esz-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ad100200-59cb-585a-9e05-2fab592df163",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esz-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC; WhatsApp sign-in copy read by NSS",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7cc34d8d-a9a7-5179-ae3b-f7777bc1925a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ccs-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "223b9883-f613-57be-98cf-1f5ed5fe4739",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ccs-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1b17c877-8aa2-59a4-bac6-26bb80c57440",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ccs-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "49fafd30-bfe2-5874-9cdd-26d0a3a0147a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocs-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4f9409d1-b100-5912-863f-82d910385475",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocs-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b554d5c7-ff97-52a9-b255-c2b04603a5ed",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocs-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2eb18299-6e41-56d1-86a9-c7ded4663b69",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocz-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cea69739-e657-52d2-a1a2-47265526ae8d",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ocz-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 27 Oct 13:34 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "616c3252-ceea-5a55-9314-f144d4c42c02",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esa-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "40de3d90-2a78-5ca8-8e70-469b39aa5e6a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esa-vvhatsapp.shop",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ffdc77c8-9cf8-5915-89e6-614208989a92",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esa-vvhatsapp.top",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1ce0748-4334-5b10-a927-8b800f1a06bd",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esc-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b8f440d9-34b3-5967-b1c6-73939350df8f",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esc-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4308a1c7-6e2f-5c32-8c32-956480fe77a4",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esc-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e1be4ab5-63d3-58b2-b0aa-dbc7e32f9726",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "eso-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9902e8fe-899e-5018-9147-087a16958a6d",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "eso-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5b41483f-793c-5a59-8630-93ade982ea63",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "eso-vvhatsapp.shop",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "16d72e97-8d3f-5ae6-a315-8fd9bb1197ef",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "eso-vvhatsapp.top",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c970932c-9e03-58ae-a9fc-63d23faa8a03",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esx-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e844e47d-1902-5939-a934-859cf9c445d6",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esz-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "15facd0c-9505-50d6-a99b-2c21795372f3",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "esz-vvhatsapp.shop",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 28 Oct 15:10 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "26627aef-2fdf-5725-abf1-9e9235be2d7a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asa-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "81490b4d-a813-51ff-9c04-08c61b9fc0a4",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asa-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2c323dc9-8b2a-56a2-a978-84632aa73b6d",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asa-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a4e98bb1-95e1-5a83-b5dc-d4a84f77de9c",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asc-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b37d39a8-04ae-523e-9f97-0f2cc1fdf207",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asc-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "104c53e0-a43c-5b0d-9632-695603fc0fea",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asc-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "154f2b08-d19b-5b5d-b343-501562a21a28",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "aso-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c3cec287-69ba-5f4a-876d-04ce94995207",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "aso-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2918f079-ac7c-543d-a15a-b425cb3355fb",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ass-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3830ea29-d69a-5f3a-99e0-f9a26edca86e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "ass-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2cb5b2f6-3a14-5712-9a15-f11b17316360",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asw-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "031f949d-87c1-5798-9b5f-1674119d27e1",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asw-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e63dad16-1db8-5525-862f-bf2de33df830",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asw-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "880158cf-f781-52ca-9c5c-145108f25611",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asx-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aeeeb3fb-5eb3-50c9-97e3-0cb678fb1c4e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asx-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7d3ab684-aec4-5ef8-969b-554b28697f51",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asx-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2c2a8e9b-0baf-570a-9616-c2f5378ff21f",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asz-vvhatsapp.cyou",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f34c6f1f-7b77-5a8e-8e85-f80ddd72b1e4",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asz-vvhatsapp.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b041c8f9-7158-5d2f-984d-9d400828f1fd",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "asz-vvhatsapp.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Registered 30 Oct 02:14 UTC",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2c6f7b03-1fc2-5e5c-b8f5-a90663f7a9fb",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "msc3nbqr.2027facai.com",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "Relay label that 33 of the names forwarded to. A pivot for finding sibling names, not a block rule: the relay service has other customers",
+        "timestamp": "1794268800",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d30d0b96-2cdc-5918-8052-465e05642534",
+        "type": "link",
+        "category": "External analysis",
+        "value": "https://nsshq.com/research/whatsapp-lookalike-kit",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "NSS-WA-01 on nsshq.com",
+        "timestamp": "1794268800",
+        "disable_correlation": true
+      }
+    ]
+  }
+}

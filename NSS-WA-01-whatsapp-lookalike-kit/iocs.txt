@@ -1,0 +1,59 @@
+# NSS-WA-01: WhatsApp lookalike kit: technical analysis
+# https://nsshq.com/research/whatsapp-lookalike-kit
+# Published 2026-11-10. TLP:CLEAR. Licence CC BY 4.0, credit Nexus Sentinel Station (NSS).
+# DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
+# Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
+#   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
+# 52 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+occ-vvhatsapp[.]cyou
+occ-vvhatsapp[.]shop
+occ-vvhatsapp[.]top
+oce-vvhatsapp[.]cyou
+oce-vvhatsapp[.]shop
+oce-vvhatsapp[.]top
+ocz-vvhatsapp[.]shop
+esx-vvhatsapp[.]cyou
+esx-vvhatsapp[.]shop
+esz-vvhatsapp[.]cyou
+esz-vvhatsapp[.]top
+ccs-vvhatsapp[.]cyou
+ccs-vvhatsapp[.]shop
+ccs-vvhatsapp[.]top
+ocs-vvhatsapp[.]cyou
+ocs-vvhatsapp[.]shop
+ocs-vvhatsapp[.]top
+ocz-vvhatsapp[.]cyou
+ocz-vvhatsapp[.]top
+esa-vvhatsapp[.]cyou
+esa-vvhatsapp[.]shop
+esa-vvhatsapp[.]top
+esc-vvhatsapp[.]cyou
+esc-vvhatsapp[.]icu
+esc-vvhatsapp[.]top
+eso-vvhatsapp[.]cyou
+eso-vvhatsapp[.]icu
+eso-vvhatsapp[.]shop
+eso-vvhatsapp[.]top
+esx-vvhatsapp[.]icu
+esz-vvhatsapp[.]icu
+esz-vvhatsapp[.]shop
+asa-vvhatsapp[.]cyou
+asa-vvhatsapp[.]icu
+asa-vvhatsapp[.]top
+asc-vvhatsapp[.]cyou
+asc-vvhatsapp[.]icu
+asc-vvhatsapp[.]top
+aso-vvhatsapp[.]cyou
+aso-vvhatsapp[.]top
+ass-vvhatsapp[.]icu
+ass-vvhatsapp[.]top
+asw-vvhatsapp[.]cyou
+asw-vvhatsapp[.]icu
+asw-vvhatsapp[.]top
+asx-vvhatsapp[.]cyou
+asx-vvhatsapp[.]icu
+asx-vvhatsapp[.]top
+asz-vvhatsapp[.]cyou
+asz-vvhatsapp[.]icu
+asz-vvhatsapp[.]top
+msc3nbqr[.]2027facai[.]com

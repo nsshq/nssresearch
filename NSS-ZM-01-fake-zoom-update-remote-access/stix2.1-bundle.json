@@ -1,0 +1,348 @@
+{
+  "type": "bundle",
+  "id": "bundle--219503a7-57a0-45c6-a5a7-bf41a80c6af8",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+      "created": "2022-10-01T00:00:00.000Z",
+      "name": "TLP:CLEAR",
+      "extensions": {
+        "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+          "extension_type": "property-extension",
+          "tlp_2_0": "clear"
+        }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-10T00:00:00.000Z",
+      "name": "Nexus Sentinel Station (NSS)",
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://nsshq.com | corrections: corrections@nsshq.com",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "report--52b01b67-fd52-4c4b-aa37-1d3a476a0aee",
+      "name": "Fake Zoom update page installs a self-hosted ScreenConnect client: technical analysis",
+      "description": "A page made to look like a Zoom meeting tells the visitor their app is out of date and offers an update. The update is a ScreenConnect remote-access client set to call a server its sender runs; whoever runs it hands over control of their computer. NSS took the page from the day's new registrations, captured it, read the installer and traced it to that server within 23 hours of the page's registration. The server's domain was registered 63 days before the lure. None of the nine indicators was on any list NSS holds on 12 November 2026.",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2026-11-12T00:00:00Z",
+      "object_refs": [
+        "indicator--45b796ab-3265-4d68-b664-55f1ea4cb1ba",
+        "indicator--68a0d429-55f3-4c8d-828c-3c5f4ec7ed8f",
+        "indicator--b5af0045-e989-4b75-b2bf-87c5166abed6",
+        "indicator--ee052937-a54f-4d4e-bc8e-f558f9c68d95",
+        "indicator--e3148170-0b7a-4d15-816f-cf9c8d749d2d",
+        "indicator--e6739d22-3c60-4251-9978-765d3817c350",
+        "indicator--2615c220-9e96-47c3-b25b-e2a022fca7d0",
+        "indicator--862926eb-94a3-4280-8791-3f251fbe4712",
+        "indicator--3c09b0d2-21b5-4ca2-a5e2-6190e8010d76"
+      ],
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        },
+        {
+          "source_name": "NSS",
+          "description": "Paper as PDF",
+          "url": "https://nsshq.com/research/files/nss-zm-01.pdf"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--45b796ab-3265-4d68-b664-55f1ea4cb1ba",
+      "name": "Domain zoom-0xcdlive-join-00ccxxd[.]live",
+      "description": "The lure page: a fake Zoom update window",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'zoom-0xcdlive-join-00ccxxd.live']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--68a0d429-55f3-4c8d-828c-3c5f4ec7ed8f",
+      "name": "URL hxxps://min[.]garincon[.]com/Bin/ScreenConnect.ClientSetup.msi",
+      "description": "The installer the Update button downloads",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://min.garincon.com/Bin/ScreenConnect.ClientSetup.msi']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b5af0045-e989-4b75-b2bf-87c5166abed6",
+      "name": "Domain min[.]garincon[.]com",
+      "description": "Download host and the operator's remote-access web portal",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'min.garincon.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ee052937-a54f-4d4e-bc8e-f558f9c68d95",
+      "name": "Domain garincon[.]com",
+      "description": "Registered domain of the download host",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'garincon.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e3148170-0b7a-4d15-816f-cf9c8d749d2d",
+      "name": "Domain 524ff283-2094-4f98-b68d-f24f61c5f8fa[.]dotinicon[.]com",
+      "description": "Connect-back host set inside the installer, port 8041",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '524ff283-2094-4f98-b68d-f24f61c5f8fa.dotinicon.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e6739d22-3c60-4251-9978-765d3817c350",
+      "name": "Domain dotinicon[.]com",
+      "description": "Registered domain of the connect-back host",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'dotinicon.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2615c220-9e96-47c3-b25b-e2a022fca7d0",
+      "name": "IP address 45[.]87[.]61[.]155",
+      "description": "The server behind both: relay on port 8041 and origin of the download portal",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.87.61.155']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--862926eb-94a3-4280-8791-3f251fbe4712",
+      "name": "File hash c98e783442a4ca72244f3bb1d5f8ad28bc1f3f94db8a5afac9597a7c870ca590",
+      "description": "SHA-256 of ScreenConnect.ClientSetup.msi, 15,216,640 bytes, client id 230f9b38c3c088fe",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'c98e783442a4ca72244f3bb1d5f8ad28bc1f3f94db8a5afac9597a7c870ca590']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-12T00:00:00.000Z",
+      "modified": "2026-11-12T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3c09b0d2-21b5-4ca2-a5e2-6190e8010d76",
+      "name": "File hash e6142c9c458795d1fea5e18288c1adfb",
+      "description": "MD5 of the same installer",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.MD5 = 'e6142c9c458795d1fea5e18288c1adfb']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T00:00:00Z",
+      "labels": [
+        "NSS-ZM-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-ZM-01",
+          "url": "https://nsshq.com/research/fake-zoom-update-remote-access"
+        }
+      ]
+    }
+  ]
+}
