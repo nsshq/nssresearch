@@ -10,6 +10,7 @@ NSS, the Nexus Sentinel Station, is a threat intelligence platform run by ALLITS
 
 | Paper | Title | Published | Indicators | Read |
 |---|---|---|---|---|
+| [NSS-GB-01](NSS-GB-01-official-lookalike-names/) | Polish official and e-banking lookalike domains aimed at PKO business-banking users: technical analysis | 2026-11-13 | 595 | [nsshq.com](https://nsshq.com/research/official-lookalike-names) |
 | [NSS-ZM-01](NSS-ZM-01-fake-zoom-update-remote-access/) | Fake Zoom update page installs a self-hosted ScreenConnect client: technical analysis | 2026-11-12 | 9 | [nsshq.com](https://nsshq.com/research/fake-zoom-update-remote-access) |
 | [NSS-RH-01](NSS-RH-01-redirect-host-clusters/) | Lottery redirect names on a shared delivery network: technical analysis | 2026-11-11 | 319 | [nsshq.com](https://nsshq.com/research/redirect-host-clusters) |
 | [NSS-OC-01](NSS-OC-01-linked-hosting-clusters/) | Linked hosting clusters and the purchase batches behind them: technical analysis | 2026-11-11 | 1770 | [nsshq.com](https://nsshq.com/research/linked-hosting-clusters) |
