@@ -10,6 +10,8 @@ NSS, the Nexus Sentinel Station, is a threat intelligence platform run by ALLITS
 
 | Paper | Title | Published | Indicators | Read |
 |---|---|---|---|---|
+| [NSS-TK-01](NSS-TK-01-fake-imtoken-download-sites/) | Fake imToken download sites push an Android app that sends recovery phrases and private keys to one server: technical analysis | 2026-11-13 | 75 | [nsshq.com](https://nsshq.com/research/fake-imtoken-download-sites) |
+| [NSS-GR-01](NSS-GR-01-aldi-lidl-lookalike-shop-names/) | A name generator behind 294 Aldi and Lidl look-alike .shop names: technical analysis | 2026-11-13 | 261 | [nsshq.com](https://nsshq.com/research/aldi-lidl-lookalike-shop-names) |
 | [NSS-GB-01](NSS-GB-01-official-lookalike-names/) | Polish official and e-banking lookalike domains aimed at PKO business-banking users: technical analysis | 2026-11-13 | 595 | [nsshq.com](https://nsshq.com/research/official-lookalike-names) |
 | [NSS-ZM-01](NSS-ZM-01-fake-zoom-update-remote-access/) | Fake Zoom update page installs a self-hosted ScreenConnect client: technical analysis | 2026-11-12 | 9 | [nsshq.com](https://nsshq.com/research/fake-zoom-update-remote-access) |
 | [NSS-RH-01](NSS-RH-01-redirect-host-clusters/) | Lottery redirect names on a shared delivery network: technical analysis | 2026-11-11 | 319 | [nsshq.com](https://nsshq.com/research/redirect-host-clusters) |

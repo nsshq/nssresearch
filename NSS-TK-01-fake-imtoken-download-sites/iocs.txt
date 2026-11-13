@@ -1,0 +1,82 @@
+# NSS-TK-01: Fake imToken download sites push an Android app that sends recovery phrases and private keys to one server: technical analysis
+# https://nsshq.com/research/fake-imtoken-download-sites
+# Published 2026-11-13. TLP:CLEAR. Licence CC BY 4.0, credit Nexus Sentinel Station (NSS).
+# DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
+# Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
+#   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
+# 75 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+pt888999[.]com
+api[.]quick-node[.]com
+quick-node[.]com
+195[.]245[.]242[.]143
+yumsihjkk[.]cc
+z6pnwmjk[.]yumsihjkk[.]cc
+82[.]158[.]231[.]42
+103[.]38[.]82[.]202
+156[.]225[.]24[.]119
+156[.]225[.]24[.]233
+hellogpt-cdn[.]club
+tokairvm-cdn83-hk84[.]click
+tokeaim-cdn09-hk44[.]autos
+tokeaivem-cdn34-hk77[.]pics
+tokenianv-cdn55-hk35[.]lol
+tokeniem-cdn11-hk41[.]click
+tokeniem-cdn61-hk46[.]lol
+tokenirm-cdn72-hk84[.]lol
+tokenism-cdn08-hk39[.]lol
+tokenism-cdn17-hk17[.]lol
+tokenism-cdn52-hk13[.]autos
+tokenism-cdn58-hk84[.]lol
+tokenism-cdn81-hk08[.]lol
+tokenism-cdn94-hk19[.]lat
+tokenixm-cdn12-hk65[.]lol
+tokenmi[.]vip
+tokenpoketnein-cdn-sg28[.]beauty
+tokenpoketnoe-cdn-jp43[.]lol
+tokenpoketpaime-cdn-uk84[.]lol
+tokenram-cdn81-hk41[.]monster
+mtokeni[.]biz
+timeaim-cdn3-hk7[.]lol
+timerime-cdn3-hk62[.]xyz
+timerime-cdn3-hk73[.]quest
+tokafimer-cdn6-hk33[.]homes
+tokaimn-cdn89-hk25[.]lol
+tokaixemcdn8-hk22[.]cfd
+tokaixn-cdn84-hk21[.]lol
+tokanimer-cdn6-hk3[.]xyz
+tokeaixm-cdn20-hk39[.]baby
+tokeikme-cdn64-hk54[.]lol
+tokeimx-cdnnode-sg16[.]xyz
+tokeins-cdn8-hk42[.]lol
+tokeinsm-cdn8-hk4[.]beauty
+tokeirm-cdn04-hk36[.]xyz
+tokeivean-cdn35-hk71[.]autos
+tokemiem-cdn35-hk61[.]click
+tokemine-cdn21-hk8[.]lol
+tokemirn-cdn21-hk83[.]autos
+tokeniam-cdn04-hk38[.]lat
+tokeniam-cdn2-hk23[.]autos
+tokeniam-cdn2-hk23[.]lat
+tokeniem-cdn04-hk31[.]lol
+tokenierm-cdn4-hk81[.]lol
+tokeniern-cdn4-hk12[.]lol
+tokenim-cdn27-hk3[.]monster
+tokenirm-cdn04-hk31[.]lol
+tokenism-cdn01-hk31[.]cfd
+tokenism-cdn08-hk52[.]quest
+tokenism-cdn14-hk19[.]lol
+tokenism-cdn27-hk33[.]pics
+tokenism-cdn85-hk05[.]lol
+tokenizcm-cdn90-hk15[.]click
+tokevim-cdn0-hk43[.]cfd
+tokexim-cdn35-hk6[.]lol
+tokieninn-cdn18-hk79[.]homes
+tokienrim-cdn8-hk48[.]pics
+tokinbin-cdn38-hk52[.]xyz
+tokiniem-cdn05-hk9[.]lol
+tokiniem-cdn05-hk99[.]cfd
+tokinim-cdn18-hk7[.]lol
+tokrnims-cdn7-hk75[.]lol
+tokrnixin-cdn7-hk73[.]lol
+tokrnixin-cdn97-hk7[.]xyz
+tolearn-cdn30-hk24[.]beauty

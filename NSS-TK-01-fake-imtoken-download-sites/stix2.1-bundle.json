@@ -1,0 +1,2394 @@
+{
+  "type": "bundle",
+  "id": "bundle--7fbbde53-74de-496c-8631-081f25f75b7b",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+      "created": "2022-10-01T00:00:00.000Z",
+      "name": "TLP:CLEAR",
+      "extensions": {
+        "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+          "extension_type": "property-extension",
+          "tlp_2_0": "clear"
+        }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-10T00:00:00.000Z",
+      "name": "Nexus Sentinel Station (NSS)",
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://nsshq.com | corrections: corrections@nsshq.com",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "report--82ebcd02-0a30-46f6-92f8-00fbb2f1ef78",
+      "name": "Fake imToken download sites push an Android app that sends recovery phrases and private keys to one server: technical analysis",
+      "description": "Copies of imToken's Chinese website offer an Android app from outside the official store. It is not imToken. NSS downloaded it and read its code: it sends the recovery phrase of every wallet created or imported in it to pt888999[.]com, and private keys to api[.]quick-node[.]com, a name that imitates QuickNode, which is not involved. On 13 November 2026 both names pointed to one server. Block both domains, look for the package com[.]anonymous[.]wallet, and treat any wallet made in it as exposed. NSS recorded 53 of the look-alike names; 40 were on no threat list NSS takes in on 13 November.",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2026-11-13T00:00:00Z",
+      "object_refs": [
+        "indicator--3b9a3a3d-6cdf-493b-b8d7-31cc3f007b73",
+        "indicator--c03a7c16-e0dd-4c57-8427-440702f283a2",
+        "indicator--2e929b90-7925-4a1b-992a-74c34c2fed9a",
+        "indicator--f587bf24-b8ed-4eed-87f5-efb6fab74102",
+        "indicator--bff97699-a3e0-4aa6-bfaa-5009d83a0387",
+        "indicator--09764335-f1cd-4a3f-ac27-b5b05abada15",
+        "indicator--319b469b-c2bf-45da-bbc3-3b018ff5d8f3",
+        "indicator--7a2b1e33-0546-43d3-b50b-badae674e2de",
+        "indicator--b9576271-3da6-4932-89a2-da6d73f28a4c",
+        "indicator--0a3191f8-dbdc-4039-89c5-f8a67f3c8f47",
+        "indicator--596bde07-19e6-4e93-905a-9959868ab963",
+        "indicator--7c05fbd9-c1f4-4068-8712-1986976bf684",
+        "indicator--82151b52-2b4f-4372-9336-41631bf6eb0d",
+        "indicator--92993759-ab98-45b8-b53d-013f58ea0bbe",
+        "indicator--3e6f047a-1d9e-47d8-a253-1fac111984c2",
+        "indicator--d094d503-9972-4831-88ea-38fb976c3d98",
+        "indicator--67edbec3-64e6-4d3e-9fde-13ef4d6d2a95",
+        "indicator--1084884c-326c-4bac-850f-d4f066e2961c",
+        "indicator--f0b539df-4066-4c62-b59f-627f6ff66046",
+        "indicator--54fa037d-acd3-4e7e-bbb5-ef10304b76bc",
+        "indicator--bea46b19-ecdf-4d0a-ab0f-e5e84d469ec2",
+        "indicator--ecdca1c4-0e24-4539-a594-ec27a33278a2",
+        "indicator--8dfe9041-99c6-434e-ba37-031385b4ec28",
+        "indicator--cfa7469c-2cd7-4dd0-8e7f-6541ebb6b557",
+        "indicator--87c2b775-637d-448f-8634-f763aaa5016a",
+        "indicator--9180d5ea-8f44-4525-b564-25eb8b1f9e03",
+        "indicator--3f8d205d-eef0-4de7-8a36-b3e07ce53e62",
+        "indicator--58113a0a-3b18-4fcf-b55e-c8ea88d1f2ff",
+        "indicator--1f396a32-24d5-4f6a-a2ac-3a1d300eabcd",
+        "indicator--bdbf65b3-1704-4b07-bb89-ae961cfe9e86",
+        "indicator--e2544d45-4501-4d68-9513-182560e4538d",
+        "indicator--813492ad-5db3-4a16-aa24-703b0a8cd5c8",
+        "indicator--842364ef-2272-4184-ae73-096b2d0df244",
+        "indicator--fe831de9-1c79-4145-af72-35cc1b73806e",
+        "indicator--b0a98ff0-ef55-401b-bfc9-e5429ee83554",
+        "indicator--611042a7-b803-4793-bf1e-fe76f819afca",
+        "indicator--2bfc9c9e-bb16-438a-a2df-a4b5c1a116e7",
+        "indicator--87aa457f-227d-4fc0-aff7-869fa02e42b4",
+        "indicator--e93dcdee-8a96-48ab-a381-5213912f9f77",
+        "indicator--bdc1d47f-950a-4083-aebf-5082457bb193",
+        "indicator--82c5dbe0-0fcf-4dc2-88b5-a5f86363fcfd",
+        "indicator--9afb1250-33a9-49fc-a19f-df07709689ed",
+        "indicator--f2532e48-65eb-4b2b-914a-16a203591405",
+        "indicator--a2aae8b2-e546-49e3-8015-b0636e92220d",
+        "indicator--c13f2cfb-50a9-471c-976a-ef296c1dd5b2",
+        "indicator--457d9bcf-9584-46b9-8bf8-994a09235243",
+        "indicator--1196a077-694e-4183-b34c-a2b3ac47a682",
+        "indicator--a440ebf9-9b6e-4b6f-8264-30f534a588af",
+        "indicator--2415b6ff-160d-4c50-957b-dd4452b72a90",
+        "indicator--3cfe8192-9906-43db-a66f-3f1de47ff601",
+        "indicator--75bc230a-cb89-4c8d-9c5c-56308311d2ba",
+        "indicator--b8456d57-d5f5-4989-abe0-eca41173cf8b",
+        "indicator--0eed241c-d027-48e4-b1db-c42a336e24b1",
+        "indicator--16ae0cc4-c2b7-4006-9c46-ba32a6feb4ee",
+        "indicator--65f0039b-70e1-4ffa-a97c-8ca44da2c3ea",
+        "indicator--2e82ce0d-f46d-4209-89ba-df9dc1ded6a2",
+        "indicator--b5b81464-c787-47e0-991a-95efcb03179b",
+        "indicator--b15faed8-e764-4d5f-8c6d-8cb17dbec0dc",
+        "indicator--122ada24-183b-4844-b0f7-00c8763f29fc",
+        "indicator--5b8b1bdb-0e55-4ce7-b140-549bda41f0da",
+        "indicator--e8ed62f7-d2e1-465d-8afe-be3d026ed36c",
+        "indicator--3312fcf3-c3c1-41e2-9ccc-315621bfd376",
+        "indicator--f7603934-21aa-4d00-b1f4-f08011bb08a6",
+        "indicator--7be07bc0-6f13-4ad4-a102-1b0ced2531b6",
+        "indicator--d834dfd9-3bfa-4465-9542-0e3c5e8c8b42",
+        "indicator--9cfcc43a-649b-4df7-aa01-84ffd68ff8b1",
+        "indicator--031cc839-1159-4d2d-948a-d534a900c9fa",
+        "indicator--65b3d39c-3b6e-4d24-ae65-df7b177a1551",
+        "indicator--4810ffe4-f698-44e0-a3ee-4081af4e2d32",
+        "indicator--44d97eb0-90f4-43f6-aea2-a62bfda01181",
+        "indicator--a7e945be-aa37-40bb-ad02-c60082eb72a9",
+        "indicator--38a64b18-1afd-4da6-bbc7-39b144f9595d",
+        "indicator--cd508f44-66e9-4fe5-8e79-a9764db22017",
+        "indicator--9baa0fe8-1250-4e9d-b785-8b69b9567955",
+        "indicator--66acf72d-11f5-468b-b46b-0de32bfc2b1f"
+      ],
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        },
+        {
+          "source_name": "NSS",
+          "description": "Paper as PDF",
+          "url": "https://nsshq.com/research/files/nss-tk-01.pdf"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3b9a3a3d-6cdf-493b-b8d7-31cc3f007b73",
+      "name": "Domain pt888999[.]com",
+      "description": "Receives the recovery phrase and account list of every wallet the app creates or imports (POST /api/task/batch_update); registered 3 Jul 2025; resolved to 195[.]245[.]242[.]143 on 13 Nov 2026; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pt888999.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c03a7c16-e0dd-4c57-8427-440702f283a2",
+      "name": "Domain api[.]quick-node[.]com",
+      "description": "The app's main back end: receives phrase creation, wallet creation, phrase and key import, keystore export and every transfer, private key included; imitates QuickNode, a real blockchain-node provider that is not involved; a browser is sent on to the real provider's site; resolved to 195[.]245[.]242[.]143 on 13 Nov 2026; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'api.quick-node.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2e929b90-7925-4a1b-992a-74c34c2fed9a",
+      "name": "Domain quick-node[.]com",
+      "description": "Registered 2025-06-20; rates High because its own DNS publishes the private-key collector; its www host copies QuickNode's site. QuickNode is not involved, and the domain is not attributed to an operator. Block this name only, never the real provider's domain",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'quick-node.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f587bf24-b8ed-4eed-87f5-efb6fab74102",
+      "name": "IP address 195[.]245[.]242[.]143",
+      "description": "Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked every 30 days",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.245.242.143']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bff97699-a3e0-4aa6-bfaa-5009d83a0387",
+      "name": "Domain yumsihjkk[.]cc",
+      "description": "Forwarding domain, registered 11 Nov 04:47 UTC; 25 of the names pointed to it on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'yumsihjkk.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--09764335-f1cd-4a3f-ac27-b5b05abada15",
+      "name": "Domain z6pnwmjk[.]yumsihjkk[.]cc",
+      "description": "The shared host every forwarding label points to; resolved to 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'z6pnwmjk.yumsihjkk.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--319b469b-c2bf-45da-bbc3-3b018ff5d8f3",
+      "name": "IP address 82[.]158[.]231[.]42",
+      "description": "Forwarding address; classed dedicated by NSS; 20 of the 53 names on first resolution; served the imToken copy on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '82.158.231.42']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7a2b1e33-0546-43d3-b50b-badae674e2de",
+      "name": "IP address 103[.]38[.]82[.]202",
+      "description": "Forwarding address; classed dedicated by NSS since 13 Nov 2026 10:26 UTC; 14 of the 53 names on first resolution",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '103.38.82.202']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b9576271-3da6-4932-89a2-da6d73f28a4c",
+      "name": "IP address 156[.]225[.]24[.]119",
+      "description": "Forwarding address; classed dedicated by NSS; 10 of the 53 names on first resolution",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '156.225.24.119']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0a3191f8-dbdc-4039-89c5-f8a67f3c8f47",
+      "name": "IP address 156[.]225[.]24[.]233",
+      "description": "Forwarding address; classed dedicated by NSS; 9 of the 53 names on first resolution",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '156.225.24.233']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--596bde07-19e6-4e93-905a-9959868ab963",
+      "name": "Domain hellogpt-cdn[.]club",
+      "description": "Registered 8 Nov 14:57 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'hellogpt-cdn.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7c05fbd9-c1f4-4068-8712-1986976bf684",
+      "name": "Domain tokairvm-cdn83-hk84[.]click",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokairvm-cdn83-hk84.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--82151b52-2b4f-4372-9336-41631bf6eb0d",
+      "name": "Domain tokeaim-cdn09-hk44[.]autos",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaim-cdn09-hk44.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--92993759-ab98-45b8-b53d-013f58ea0bbe",
+      "name": "Domain tokeaivem-cdn34-hk77[.]pics",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaivem-cdn34-hk77.pics']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3e6f047a-1d9e-47d8-a253-1fac111984c2",
+      "name": "Domain tokenianv-cdn55-hk35[.]lol",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenianv-cdn55-hk35.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d094d503-9972-4831-88ea-38fb976c3d98",
+      "name": "Domain tokeniem-cdn11-hk41[.]click",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn11-hk41.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--67edbec3-64e6-4d3e-9fde-13ef4d6d2a95",
+      "name": "Domain tokeniem-cdn61-hk46[.]lol",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn61-hk46.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1084884c-326c-4bac-850f-d4f066e2961c",
+      "name": "Domain tokenirm-cdn72-hk84[.]lol",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenirm-cdn72-hk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f0b539df-4066-4c62-b59f-627f6ff66046",
+      "name": "Domain tokenism-cdn08-hk39[.]lol",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn08-hk39.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--54fa037d-acd3-4e7e-bbb5-ef10304b76bc",
+      "name": "Domain tokenism-cdn17-hk17[.]lol",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn17-hk17.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bea46b19-ecdf-4d0a-ab0f-e5e84d469ec2",
+      "name": "Domain tokenism-cdn52-hk13[.]autos",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn52-hk13.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ecdca1c4-0e24-4539-a594-ec27a33278a2",
+      "name": "Domain tokenism-cdn58-hk84[.]lol",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn58-hk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8dfe9041-99c6-434e-ba37-031385b4ec28",
+      "name": "Domain tokenism-cdn81-hk08[.]lol",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn81-hk08.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--cfa7469c-2cd7-4dd0-8e7f-6541ebb6b557",
+      "name": "Domain tokenism-cdn94-hk19[.]lat",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn94-hk19.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--87c2b775-637d-448f-8634-f763aaa5016a",
+      "name": "Domain tokenixm-cdn12-hk65[.]lol",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenixm-cdn12-hk65.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9180d5ea-8f44-4525-b564-25eb8b1f9e03",
+      "name": "Domain tokenmi[.]vip",
+      "description": "Registered 8 Nov 16:26 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenmi.vip']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3f8d205d-eef0-4de7-8a36-b3e07ce53e62",
+      "name": "Domain tokenpoketnein-cdn-sg28[.]beauty",
+      "description": "Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketnein-cdn-sg28.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--58113a0a-3b18-4fcf-b55e-c8ea88d1f2ff",
+      "name": "Domain tokenpoketnoe-cdn-jp43[.]lol",
+      "description": "Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketnoe-cdn-jp43.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1f396a32-24d5-4f6a-a2ac-3a1d300eabcd",
+      "name": "Domain tokenpoketpaime-cdn-uk84[.]lol",
+      "description": "Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketpaime-cdn-uk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bdbf65b3-1704-4b07-bb89-ae961cfe9e86",
+      "name": "Domain tokenram-cdn81-hk41[.]monster",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82[.]158[.]231[.]42 on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenram-cdn81-hk41.monster']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e2544d45-4501-4d68-9513-182560e4538d",
+      "name": "Domain mtokeni[.]biz",
+      "description": "Registered 8 Nov 06:06 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mtokeni.biz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--813492ad-5db3-4a16-aa24-703b0a8cd5c8",
+      "name": "Domain timeaim-cdn3-hk7[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timeaim-cdn3-hk7.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--842364ef-2272-4184-ae73-096b2d0df244",
+      "name": "Domain timerime-cdn3-hk62[.]xyz",
+      "description": "Registered 9 Nov 03:57 UTC in the same second as tokeimxn-cdnnode-sg53[.]lol, which reached NSS only from lists; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timerime-cdn3-hk62.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fe831de9-1c79-4145-af72-35cc1b73806e",
+      "name": "Domain timerime-cdn3-hk73[.]quest",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timerime-cdn3-hk73.quest']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b0a98ff0-ef55-401b-bfc9-e5429ee83554",
+      "name": "Domain tokafimer-cdn6-hk33[.]homes",
+      "description": "Registered 8 Nov 10:41 UTC in a batch of 2; NSS record 9 Nov 06:52; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokafimer-cdn6-hk33.homes']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--611042a7-b803-4793-bf1e-fe76f819afca",
+      "name": "Domain tokaimn-cdn89-hk25[.]lol",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaimn-cdn89-hk25.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2bfc9c9e-bb16-438a-a2df-a4b5c1a116e7",
+      "name": "Domain tokaixemcdn8-hk22[.]cfd",
+      "description": "Registered 9 Nov 09:47 UTC; NSS record 10 Nov 05:10; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaixemcdn8-hk22.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--87aa457f-227d-4fc0-aff7-869fa02e42b4",
+      "name": "Domain tokaixn-cdn84-hk21[.]lol",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaixn-cdn84-hk21.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e93dcdee-8a96-48ab-a381-5213912f9f77",
+      "name": "Domain tokanimer-cdn6-hk3[.]xyz",
+      "description": "Registered 8 Nov 10:19 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokanimer-cdn6-hk3.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bdc1d47f-950a-4083-aebf-5082457bb193",
+      "name": "Domain tokeaixm-cdn20-hk39[.]baby",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaixm-cdn20-hk39.baby']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--82c5dbe0-0fcf-4dc2-88b5-a5f86363fcfd",
+      "name": "Domain tokeikme-cdn64-hk54[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeikme-cdn64-hk54.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9afb1250-33a9-49fc-a19f-df07709689ed",
+      "name": "Domain tokeimx-cdnnode-sg16[.]xyz",
+      "description": "Registered 7 Nov 05:08 UTC; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeimx-cdnnode-sg16.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f2532e48-65eb-4b2b-914a-16a203591405",
+      "name": "Domain tokeins-cdn8-hk42[.]lol",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeins-cdn8-hk42.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a2aae8b2-e546-49e3-8015-b0636e92220d",
+      "name": "Domain tokeinsm-cdn8-hk4[.]beauty",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeinsm-cdn8-hk4.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c13f2cfb-50a9-471c-976a-ef296c1dd5b2",
+      "name": "Domain tokeirm-cdn04-hk36[.]xyz",
+      "description": "Registered 8 Nov 13:02 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeirm-cdn04-hk36.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--457d9bcf-9584-46b9-8bf8-994a09235243",
+      "name": "Domain tokeivean-cdn35-hk71[.]autos",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeivean-cdn35-hk71.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1196a077-694e-4183-b34c-a2b3ac47a682",
+      "name": "Domain tokemiem-cdn35-hk61[.]click",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemiem-cdn35-hk61.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a440ebf9-9b6e-4b6f-8264-30f534a588af",
+      "name": "Domain tokemine-cdn21-hk8[.]lol",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemine-cdn21-hk8.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2415b6ff-160d-4c50-957b-dd4452b72a90",
+      "name": "Domain tokemirn-cdn21-hk83[.]autos",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemirn-cdn21-hk83.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3cfe8192-9906-43db-a66f-3f1de47ff601",
+      "name": "Domain tokeniam-cdn04-hk38[.]lat",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn04-hk38.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--75bc230a-cb89-4c8d-9c5c-56308311d2ba",
+      "name": "Domain tokeniam-cdn2-hk23[.]autos",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn2-hk23.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b8456d57-d5f5-4989-abe0-eca41173cf8b",
+      "name": "Domain tokeniam-cdn2-hk23[.]lat",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn2-hk23.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0eed241c-d027-48e4-b1db-c42a336e24b1",
+      "name": "Domain tokeniem-cdn04-hk31[.]lol",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn04-hk31.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--16ae0cc4-c2b7-4006-9c46-ba32a6feb4ee",
+      "name": "Domain tokenierm-cdn4-hk81[.]lol",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenierm-cdn4-hk81.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--65f0039b-70e1-4ffa-a97c-8ca44da2c3ea",
+      "name": "Domain tokeniern-cdn4-hk12[.]lol",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniern-cdn4-hk12.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2e82ce0d-f46d-4209-89ba-df9dc1ded6a2",
+      "name": "Domain tokenim-cdn27-hk3[.]monster",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenim-cdn27-hk3.monster']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b5b81464-c787-47e0-991a-95efcb03179b",
+      "name": "Domain tokenirm-cdn04-hk31[.]lol",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenirm-cdn04-hk31.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b15faed8-e764-4d5f-8c6d-8cb17dbec0dc",
+      "name": "Domain tokenism-cdn01-hk31[.]cfd",
+      "description": "Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn01-hk31.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--122ada24-183b-4844-b0f7-00c8763f29fc",
+      "name": "Domain tokenism-cdn08-hk52[.]quest",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn08-hk52.quest']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5b8b1bdb-0e55-4ce7-b140-549bda41f0da",
+      "name": "Domain tokenism-cdn14-hk19[.]lol",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn14-hk19.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e8ed62f7-d2e1-465d-8afe-be3d026ed36c",
+      "name": "Domain tokenism-cdn27-hk33[.]pics",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn27-hk33.pics']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3312fcf3-c3c1-41e2-9ccc-315621bfd376",
+      "name": "Domain tokenism-cdn85-hk05[.]lol",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn85-hk05.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f7603934-21aa-4d00-b1f4-f08011bb08a6",
+      "name": "Domain tokenizcm-cdn90-hk15[.]click",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenizcm-cdn90-hk15.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7be07bc0-6f13-4ad4-a102-1b0ced2531b6",
+      "name": "Domain tokevim-cdn0-hk43[.]cfd",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn0-hk43.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d834dfd9-3bfa-4465-9542-0e3c5e8c8b42",
+      "name": "Domain tokexim-cdn35-hk6[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokexim-cdn35-hk6.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9cfcc43a-649b-4df7-aa01-84ffd68ff8b1",
+      "name": "Domain tokieninn-cdn18-hk79[.]homes",
+      "description": "Registered 8 Nov 06:02 UTC in the same second as tokininx-cdn18-hk78[.]lol, which reached NSS only from lists; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokieninn-cdn18-hk79.homes']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--031cc839-1159-4d2d-948a-d534a900c9fa",
+      "name": "Domain tokienrim-cdn8-hk48[.]pics",
+      "description": "Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokienrim-cdn8-hk48.pics']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--65b3d39c-3b6e-4d24-ae65-df7b177a1551",
+      "name": "Domain tokinbin-cdn38-hk52[.]xyz",
+      "description": "Registered 8 Nov 10:41 UTC in a batch of 2; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinbin-cdn38-hk52.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--4810ffe4-f698-44e0-a3ee-4081af4e2d32",
+      "name": "Domain tokiniem-cdn05-hk9[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokiniem-cdn05-hk9.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--44d97eb0-90f4-43f6-aea2-a62bfda01181",
+      "name": "Domain tokiniem-cdn05-hk99[.]cfd",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokiniem-cdn05-hk99.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a7e945be-aa37-40bb-ad02-c60082eb72a9",
+      "name": "Domain tokinim-cdn18-hk7[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinim-cdn18-hk7.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--38a64b18-1afd-4da6-bbc7-39b144f9595d",
+      "name": "Domain tokrnims-cdn7-hk75[.]lol",
+      "description": "Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnims-cdn7-hk75.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--cd508f44-66e9-4fe5-8e79-a9764db22017",
+      "name": "Domain tokrnixin-cdn7-hk73[.]lol",
+      "description": "Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnixin-cdn7-hk73.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9baa0fe8-1250-4e9d-b785-8b69b9567955",
+      "name": "Domain tokrnixin-cdn97-hk7[.]xyz",
+      "description": "Registered 8 Nov 13:04 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnixin-cdn97-hk7.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-13T00:00:00.000Z",
+      "modified": "2026-11-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--66acf72d-11f5-468b-b46b-0de32bfc2b1f",
+      "name": "Domain tolearn-cdn30-hk24[.]beauty",
+      "description": "Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tolearn-cdn30-hk24.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T00:00:00Z",
+      "labels": [
+        "NSS-TK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TK-01",
+          "url": "https://nsshq.com/research/fake-imtoken-download-sites"
+        }
+      ]
+    }
+  ]
+}

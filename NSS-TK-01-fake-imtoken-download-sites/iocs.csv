@@ -1,0 +1,76 @@
+indicator,type,note
+pt888999.com,domain,Receives the recovery phrase and account list of every wallet the app creates or imports (POST /api/task/batch_update); registered 3 Jul 2025; resolved to 195.245.242.143 on 13 Nov 2026; on no threat list NSS takes in
+api.quick-node.com,domain,"The app's main back end: receives phrase creation, wallet creation, phrase and key import, keystore export and every transfer, private key included; imitates QuickNode, a real blockchain-node provider that is not involved; a browser is sent on to the real provider's site; resolved to 195.245.242.143 on 13 Nov 2026; on no threat list NSS takes in"
+quick-node.com,domain,"Registered 2025-06-20; rates High because its own DNS publishes the private-key collector; its www host copies QuickNode's site. QuickNode is not involved, and the domain is not attributed to an operator. Block this name only, never the real provider's domain"
+195.245.242.143,ipv4,"Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked every 30 days"
+yumsihjkk.cc,domain,"Forwarding domain, registered 11 Nov 04:47 UTC; 25 of the names pointed to it on 13 Nov"
+z6pnwmjk.yumsihjkk.cc,domain,The shared host every forwarding label points to; resolved to 82.158.231.42 on 13 Nov
+82.158.231.42,ipv4,Forwarding address; classed dedicated by NSS; 20 of the 53 names on first resolution; served the imToken copy on 13 Nov
+103.38.82.202,ipv4,Forwarding address; classed dedicated by NSS since 13 Nov 2026 10:26 UTC; 14 of the 53 names on first resolution
+156.225.24.119,ipv4,Forwarding address; classed dedicated by NSS; 10 of the 53 names on first resolution
+156.225.24.233,ipv4,Forwarding address; classed dedicated by NSS; 9 of the 53 names on first resolution
+hellogpt-cdn.club,domain,Registered 8 Nov 14:57 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokairvm-cdn83-hk84.click,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokeaim-cdn09-hk44.autos,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokeaivem-cdn34-hk77.pics,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenianv-cdn55-hk35.lol,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokeniem-cdn11-hk41.click,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokeniem-cdn61-hk46.lol,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenirm-cdn72-hk84.lol,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn08-hk39.lol,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn17-hk17.lol,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn52-hk13.autos,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn58-hk84.lol,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn81-hk08.lol,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenism-cdn94-hk19.lat,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenixm-cdn12-hk65.lol,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenmi.vip,domain,Registered 8 Nov 16:26 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenpoketnein-cdn-sg28.beauty,domain,Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenpoketnoe-cdn-jp43.lol,domain,Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenpoketpaime-cdn-uk84.lol,domain,Registered 10 Nov 16:27 UTC in a batch of 3; NSS record 11 Nov 04:20; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+tokenram-cdn81-hk41.monster,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in; live on 82.158.231.42 on 13 Nov
+mtokeni.biz,domain,Registered 8 Nov 06:06 UTC; NSS record 9 Nov 06:52; on no threat list NSS takes in; not resolving on 13 Nov
+timeaim-cdn3-hk7.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in
+timerime-cdn3-hk62.xyz,domain,"Registered 9 Nov 03:57 UTC in the same second as tokeimxn-cdnnode-sg53.lol, which reached NSS only from lists; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov"
+timerime-cdn3-hk73.quest,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokafimer-cdn6-hk33.homes,domain,Registered 8 Nov 10:41 UTC in a batch of 2; NSS record 9 Nov 06:52; on no threat list NSS takes in
+tokaimn-cdn89-hk25.lol,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in
+tokaixemcdn8-hk22.cfd,domain,Registered 9 Nov 09:47 UTC; NSS record 10 Nov 05:10; on a public list by 13 Nov; not resolving on 13 Nov
+tokaixn-cdn84-hk21.lol,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokanimer-cdn6-hk3.xyz,domain,Registered 8 Nov 10:19 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov
+tokeaixm-cdn20-hk39.baby,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in
+tokeikme-cdn64-hk54.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in
+tokeimx-cdnnode-sg16.xyz,domain,Registered 7 Nov 05:08 UTC; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokeins-cdn8-hk42.lol,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokeinsm-cdn8-hk4.beauty,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokeirm-cdn04-hk36.xyz,domain,Registered 8 Nov 13:02 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov
+tokeivean-cdn35-hk71.autos,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokemiem-cdn35-hk61.click,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov
+tokemine-cdn21-hk8.lol,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov
+tokemirn-cdn21-hk83.autos,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokeniam-cdn04-hk38.lat,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokeniam-cdn2-hk23.autos,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokeniam-cdn2-hk23.lat,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in
+tokeniem-cdn04-hk31.lol,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokenierm-cdn4-hk81.lol,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in
+tokeniern-cdn4-hk12.lol,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokenim-cdn27-hk3.monster,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokenirm-cdn04-hk31.lol,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov
+tokenism-cdn01-hk31.cfd,domain,Registered 11 Nov 09:39 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in
+tokenism-cdn08-hk52.quest,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in
+tokenism-cdn14-hk19.lol,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokenism-cdn27-hk33.pics,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokenism-cdn85-hk05.lol,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokenizcm-cdn90-hk15.click,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokevim-cdn0-hk43.cfd,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokexim-cdn35-hk6.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokieninn-cdn18-hk79.homes,domain,"Registered 8 Nov 06:02 UTC in the same second as tokininx-cdn18-hk78.lol, which reached NSS only from lists; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov"
+tokienrim-cdn8-hk48.pics,domain,Registered 10 Nov 16:21 UTC in a batch of 10; NSS record 11 Nov 04:20; on no threat list NSS takes in; not resolving on 13 Nov
+tokinbin-cdn38-hk52.xyz,domain,Registered 8 Nov 10:41 UTC in a batch of 2; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov
+tokiniem-cdn05-hk9.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokiniem-cdn05-hk99.cfd,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on a public list by 13 Nov; not resolving on 13 Nov
+tokinim-cdn18-hk7.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in; not resolving on 13 Nov
+tokrnims-cdn7-hk75.lol,domain,Registered 10 Nov 00:52 UTC in a batch of 10; NSS record 10 Nov 05:10; on no threat list NSS takes in
+tokrnixin-cdn7-hk73.lol,domain,Registered 7 Nov 05:14 UTC in a batch of 10; NSS record 8 Nov 04:17; on no threat list NSS takes in; not resolving on 13 Nov
+tokrnixin-cdn97-hk7.xyz,domain,Registered 8 Nov 13:04 UTC; NSS record 9 Nov 06:52; on a public list by 13 Nov; not resolving on 13 Nov
+tolearn-cdn30-hk24.beauty,domain,Registered 11 Nov 18:27 UTC in a batch of 10; NSS record 12 Nov 04:08; on no threat list NSS takes in
