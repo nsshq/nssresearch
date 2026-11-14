@@ -1,0 +1,3665 @@
+{
+  "type": "bundle",
+  "id": "bundle--80e606c7-b1b5-4710-b018-fddecc662f84",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+      "created": "2022-10-01T00:00:00.000Z",
+      "name": "TLP:CLEAR",
+      "extensions": {
+        "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+          "extension_type": "property-extension",
+          "tlp_2_0": "clear"
+        }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-10T00:00:00.000Z",
+      "name": "Nexus Sentinel Station (NSS)",
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://nsshq.com | corrections: corrections@nsshq.com",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "report--cecfc2cd-8b2e-4fcb-98e7-ceda3fdb3a61",
+      "name": "One wallet-phishing operator, six servers in three weeks: followed by the names it carried host to host",
+      "description": "Twenty-four names moved with one wallet-phishing operation across six servers between 27 October and 14 November 2026, the stretch NSS's own resolution record covers; six of them went the whole way from the first server NSS recorded to the sixth, the server behind NSS-TK-01, the fake imToken download sites. Twenty-two of the moved names sat behind the operation's forwarding layer, each keeping its own label while the address behind it changed. The operation's oldest names were bought in July and on lists from August. Of the 104 names NSS saw on the six servers, 34 were on a threat list NSS takes in on 14 November; the 43 names that first appeared on the current server were on none.",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2026-11-14T00:00:00Z",
+      "object_refs": [
+        "indicator--78b4d98a-7d24-4211-a72e-7034471fd6c7",
+        "indicator--9451a89a-e7cc-418f-a50f-6b6fd70d858b",
+        "indicator--8d54962c-c7bd-4470-bbdb-070d215066f2",
+        "indicator--5df20d9e-d887-4623-b1df-c4a56a72d52d",
+        "indicator--1bfcdcdb-2727-4dbc-9043-9fd342a1b06c",
+        "indicator--5bca3f97-138d-424a-a09d-9a3f27b92841",
+        "indicator--7ccc3432-0e48-4557-95e6-725347f92c34",
+        "indicator--927515c5-caa2-43a3-ae49-5c144a71331e",
+        "indicator--0015f5fe-d593-40e9-a4e7-5b110a9b8455",
+        "indicator--b85c3e24-49a7-49f4-92fb-213d4c115cb4",
+        "indicator--8c2efe4e-e7a4-46ae-9b7e-bf3c06b0ab07",
+        "indicator--0831fa41-b0d8-4e38-b0ca-454a887249f3",
+        "indicator--59aff600-6d47-4fa3-9484-da5b828881f7",
+        "indicator--580b4079-78a6-4672-928d-4ff4ebcd4196",
+        "indicator--c3e07758-4d40-4ac4-bca1-e51604887ff4",
+        "indicator--576177a7-f38d-47c6-b1a7-2f9327326da4",
+        "indicator--dc878e4a-9c21-4da0-9905-d5c3d959fa26",
+        "indicator--413b31fb-8876-449f-ab7e-93d91da04f54",
+        "indicator--1e0578df-971e-4518-9641-4eceea3e5ddb",
+        "indicator--9b7606a3-fefc-4a71-9734-3f8f5735fa58",
+        "indicator--27869b7a-afe8-40d9-b7b0-a39013cf0453",
+        "indicator--3722c2f3-5b6c-40a4-9e56-911c2a3e6830",
+        "indicator--cc738336-b449-43fc-9fcf-ef650623ddb1",
+        "indicator--e724fb0c-3356-4023-a2b3-bb5aac01a9d5",
+        "indicator--fef9b9e8-0238-4a5c-a1fb-35fa4865f672",
+        "indicator--f93a6f7b-bdad-4850-af2b-396b53c3fe40",
+        "indicator--3a69c2cb-7a0a-4b10-96c4-f9ed2a5a7799",
+        "indicator--6de7f543-d99e-4725-8e00-772bf3d4454e",
+        "indicator--fa75caaf-5dc9-47b2-9aeb-ea028695acbc",
+        "indicator--c09ab5e0-ef54-42e8-8e33-575eb8222a7c",
+        "indicator--8cf9a662-50ac-44d4-a965-f09fc167ea68",
+        "indicator--9529a2d7-3fce-4756-a161-f739b4afb748",
+        "indicator--fcdfc5dd-1ed5-49f1-a4ea-bde7480415c8",
+        "indicator--daa2d076-3a20-464a-a838-16a070d7ed16",
+        "indicator--5fe55e48-df02-454e-99ee-b70b13b37721",
+        "indicator--bfc64e4d-14fe-41ab-bdd7-2d5b850d2a9e",
+        "indicator--b1291c36-89b2-4e29-9583-7a2530ec79e0",
+        "indicator--5979cb1d-9f15-40d3-93be-8711ff596fe6",
+        "indicator--710dab38-fac7-4c43-add7-f4b3571f8c88",
+        "indicator--4dac4066-0202-45c4-9820-99f0498531a3",
+        "indicator--5e05b809-54ab-4a37-ae54-e6d14a18d2a5",
+        "indicator--72578f8e-72e6-437a-b6b3-4cf60bca22cc",
+        "indicator--1a6daf76-c759-4cbf-8586-3a06a813b869",
+        "indicator--0cc8a6fa-e0b2-4593-b5de-0ea68b4d41da",
+        "indicator--979dc610-9fea-4c03-ad69-b5d77df7f9e9",
+        "indicator--eeccfa54-655f-4fd6-9792-ecacdebfa83d",
+        "indicator--d877a231-97e6-4ead-abcf-1ff25a38e3df",
+        "indicator--8f57f413-0be6-4ace-9777-789ada42da65",
+        "indicator--9d581934-aabc-45b4-8818-9158989401ea",
+        "indicator--a39bc83e-f607-4591-90cf-501169896d8c",
+        "indicator--a50ea650-ff21-4158-a9d5-2d3ac259f19c",
+        "indicator--a3246501-f9a7-4147-b631-50efe30a9be0",
+        "indicator--e00fdf02-79e1-4f04-806c-5a217e85901f",
+        "indicator--655fec27-4ba6-4f25-8f1a-7c761f9e612b",
+        "indicator--634e703a-3ffa-433c-b3b1-91a45c4381f2",
+        "indicator--bd884391-5c0a-4e7a-8082-738a397819e7",
+        "indicator--ad9b8a3a-3efb-4566-8430-160cff3f43dc",
+        "indicator--8b8a7e26-c99f-42b3-b485-0260c8dfaf74",
+        "indicator--4b714100-3a83-47d3-89dd-611a6b3a9930",
+        "indicator--dfeb80fb-539f-495e-bb81-f167cc2c0a86",
+        "indicator--a124f9d9-fe8a-451b-95e6-8be8b4fc6b9c",
+        "indicator--8e566a60-e40e-47af-b224-ce8634d1263a",
+        "indicator--22e432af-b9c2-4d7e-8262-1579da9dfbe9",
+        "indicator--029ed846-87a0-467b-9640-f44e472b565d",
+        "indicator--ccf8eb19-69fe-4113-aabc-845abf396b18",
+        "indicator--2ecdf3b8-0831-4cb9-ae03-2d5157378f40",
+        "indicator--3cd161ab-7c8e-4479-ae6d-623b180389f2",
+        "indicator--2e7c9720-57bf-416a-939a-16a9daef4f4e",
+        "indicator--14b4c22a-970a-4dd3-bfac-df3f792c360a",
+        "indicator--3b1bf402-eb1c-4c31-bea6-f62a8a51cedb",
+        "indicator--0455532e-f0d4-4d5e-ac19-e8a0e4e01d55",
+        "indicator--2e4cfca5-1894-4120-88b4-40d0d4cad578",
+        "indicator--2c906e41-acc8-4f9b-a3ff-444e4aa3a7a8",
+        "indicator--5519a48a-0b3a-455b-bd6a-e6ced4f716dc",
+        "indicator--e4294cd5-460f-4a0e-86f9-48ce095de5e1",
+        "indicator--12a1dc87-5269-41e6-a146-dbc30fa21c92",
+        "indicator--54c73597-d3c6-4c5e-98b9-3a1c0e62bb55",
+        "indicator--57d8e71a-a67c-49db-a797-c2eb7144dfe3",
+        "indicator--69e08c63-f75f-4d39-8f2d-7754546cbd0d",
+        "indicator--85e2b346-2614-4aaf-abc0-d89dcd4b5cc4",
+        "indicator--dc47600f-4509-40d0-84e1-1ff4cee4c10b",
+        "indicator--78f1f552-7381-47ae-97ee-42182dcd4039",
+        "indicator--50c6e0ce-a455-49ea-b3b9-f61c76f1bc35",
+        "indicator--7eb14f1c-ec3b-4fa3-947f-a6481db3b10f",
+        "indicator--d78c857a-f504-4d43-82bc-575de349797a",
+        "indicator--69f0b20e-0553-407d-9ac8-7ffb1d26d2d4",
+        "indicator--13582995-6a02-4e3f-83a6-679554bd9047",
+        "indicator--d2bd23b1-6300-4060-80ad-6f1635048983",
+        "indicator--cc713c14-1d3b-450f-8709-c103f8c01186",
+        "indicator--8bdf4e4b-3001-4345-8144-a7c14c23a7f4",
+        "indicator--ec01287b-679d-4649-84c9-c218c7b2fdba",
+        "indicator--69896cb0-53cb-49ea-8b5f-3f884110d161",
+        "indicator--00b3cc52-2b1a-4632-b8c7-d3b7fd8bd1e6",
+        "indicator--f4ce3e80-d612-4e39-8e1b-c37236911942",
+        "indicator--9dcab212-d1bf-4748-9e55-9c3f82fe3507",
+        "indicator--46b2d96f-680f-47ef-9cc9-e8dc5092899a",
+        "indicator--044d99ce-0f20-40ac-b778-72c8e98bcb9c",
+        "indicator--8ee72b5d-1e24-4f96-a452-62e6f4b6c297",
+        "indicator--74e5dad0-dd5a-447c-9a22-97eaf580e128",
+        "indicator--b3928938-62e3-44f1-b3eb-b9285a073896",
+        "indicator--5342f721-0fe7-44b1-816e-7a7dfb4c7151",
+        "indicator--46cd56d8-5024-4b2c-8b75-386c0af6c373",
+        "indicator--5c2787b5-72ff-4fae-837e-3be7d4c054a6",
+        "indicator--9756026e-8381-48dd-888e-0275ebcd0f67",
+        "indicator--0292b474-b58c-49ee-b3b6-80ff77602d57",
+        "indicator--5c2ca422-fb6f-4a77-b279-579b46b70198",
+        "indicator--1986bb45-3af1-42a7-9f94-81cbd9569c76",
+        "indicator--2add31ef-3024-4faf-b187-a33613d99915",
+        "indicator--f9c1dd49-00d9-44e3-8a55-2efd2e470fef",
+        "indicator--98fd5c14-05e2-40ee-b4c3-40c2cb0ac1ae",
+        "indicator--b463ca70-5747-466a-8362-8e190d27a6e9",
+        "indicator--7dea1cc3-1e09-4f68-8f1b-6343495959f4",
+        "indicator--f6e4ac2a-25ae-421f-b639-d55075d88b2f",
+        "indicator--a2646e6d-0527-4fdb-b20e-21ffb1d77b7a",
+        "indicator--67514892-60ba-4155-9d02-9532491ec5f9",
+        "indicator--14ffb00e-e3f8-4021-8e0a-e327bc332331"
+      ],
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        },
+        {
+          "source_name": "NSS",
+          "description": "Paper as PDF",
+          "url": "https://nsshq.com/research/files/nss-tl-01.pdf"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--78b4d98a-7d24-4211-a72e-7034471fd6c7",
+      "name": "IP address 94[.]26[.]106[.]72",
+      "description": "Host 1 of the chain: 13 names of the operator seen on it 27 Oct 2026 to 31 Oct 2026, 13 of them on a threat list NSS takes in on 14 Nov 2026; no name of the operation on it after 31 Oct 2026",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '94.26.106.72']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9451a89a-e7cc-418f-a50f-6b6fd70d858b",
+      "name": "IP address 103[.]38[.]82[.]152",
+      "description": "Host 2 of the chain: 6 names of the operator seen on it 1 Nov 2026 to 6 Nov 2026, 6 of them on a threat list NSS takes in on 14 Nov 2026; no name of the operation on it after 6 Nov 2026",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '103.38.82.152']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8d54962c-c7bd-4470-bbdb-070d215066f2",
+      "name": "IP address 103[.]38[.]82[.]202",
+      "description": "Host 3 of the chain: 26 names of the operator seen on it 3 Nov 2026 to 10 Nov 2026, 17 of them on a threat list NSS takes in on 14 Nov 2026; classed a dedicated host by NSS",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '103.38.82.202']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5df20d9e-d887-4623-b1df-c4a56a72d52d",
+      "name": "IP address 156[.]225[.]24[.]233",
+      "description": "Host 4 of the chain: 14 names of the operator seen on it 3 Nov 2026 to 10 Nov 2026, 9 of them on a threat list NSS takes in on 14 Nov 2026; classed a dedicated host by NSS",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '156.225.24.233']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1bfcdcdb-2727-4dbc-9043-9fd342a1b06c",
+      "name": "IP address 156[.]225[.]24[.]119",
+      "description": "Host 5 of the chain: 23 names of the operator seen on it 3 Nov 2026 to 9 Nov 2026, 10 of them on a threat list NSS takes in on 14 Nov 2026; classed a dedicated host by NSS",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '156.225.24.119']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5bca3f97-138d-424a-a09d-9a3f27b92841",
+      "name": "IP address 82[.]158[.]231[.]42",
+      "description": "Host 6 of the chain: 55 names of the operator seen on it 11 Nov 2026 to 14 Nov 2026, 7 of them on a threat list NSS takes in on 14 Nov 2026; classed a dedicated host by NSS",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '82.158.231.42']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7ccc3432-0e48-4557-95e6-725347f92c34",
+      "name": "Domain atzuqs2x[.]yumsihjkk[.]cc",
+      "description": "The constant forwarding label: the three telergam-cdn names point at it; the same label sat under ikunzf[.]online from 31 Oct to 6 Nov 2026 and under this apex from 12 Nov 2026; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'atzuqs2x.yumsihjkk.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--927515c5-caa2-43a3-ae49-5c144a71331e",
+      "name": "Domain yumsihjkk[.]cc",
+      "description": "Forwarding apex of the operator, registered 11 Nov 2026 04:47 UTC; 33 names forwarded through labels under it in NSS's record; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'yumsihjkk.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0015f5fe-d593-40e9-a4e7-5b110a9b8455",
+      "name": "Domain z6pnwmjk[.]yumsihjkk[.]cc",
+      "description": "The shared host label under the apex: on 14 Nov 2026 a forwarded name resolved through its own label to this one, which gave the current server, 82[.]158[.]231[.]42; on no threat list NSS takes in",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'z6pnwmjk.yumsihjkk.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b85c3e24-49a7-49f4-92fb-213d4c115cb4",
+      "name": "Domain im-token-xjp-cdn[.]wiki",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 5 (7 Nov 2026); forwarded through label xwsjqutn under ikunzf[.]online; on a threat list NSS takes in, list date 28 Sep 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'im-token-xjp-cdn.wiki']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8c2efe4e-e7a4-46ae-9b7e-bf3c06b0ab07",
+      "name": "Domain mtoken-im[.]cv",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 5 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label zwc9j6s4 under ikunzf[.]online; on a threat list NSS takes in, list date 2 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mtoken-im.cv']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0831fa41-b0d8-4e38-b0ca-454a887249f3",
+      "name": "Domain mtoken[.]download",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 5 (7 Nov 2026); on a threat list NSS takes in, list date 14 Sep 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mtoken.download']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--59aff600-6d47-4fa3-9484-da5b828881f7",
+      "name": "Domain mtoken[.]online",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 3 (7 Nov 2026); on a threat list NSS takes in, list date 14 Sep 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mtoken.online']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--580b4079-78a6-4672-928d-4ff4ebcd4196",
+      "name": "Domain telegam-zh-cn[.]com",
+      "description": "Moved host to host: host 2 (1 Nov 2026), then host 4 (7 Nov 2026); forwarded through label 6xd8fw3p under ikunzf[.]online; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telegam-zh-cn.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c3e07758-4d40-4ac4-bca1-e51604887ff4",
+      "name": "Domain telegramorg-cn[.]co",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 3 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label uzvn8r64 under ikunzf[.]online; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telegramorg-cn.co']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--576177a7-f38d-47c6-b1a7-2f9327326da4",
+      "name": "Domain telegramorg-cn[.]com",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 5 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label q54ae7mj under ikunzf[.]online; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telegramorg-cn.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dc878e4a-9c21-4da0-9905-d5c3d959fa26",
+      "name": "Domain telergam-cdn71386[.]aa9977rt[.]com",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 3 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label atzuqs2x under ikunzf[.]online, then yumsihjkk[.]cc; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telergam-cdn71386.aa9977rt.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--413b31fb-8876-449f-ab7e-93d91da04f54",
+      "name": "Domain telergam-cdn83124[.]aa9977rt[.]com",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 2 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label atzuqs2x under ikunzf[.]online, then yumsihjkk[.]cc; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telergam-cdn83124.aa9977rt.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1e0578df-971e-4518-9641-4eceea3e5ddb",
+      "name": "Domain telergam-cdn99471[.]aa9977rt[.]com",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 4 (6 Nov 2026), then host 6 (12 Nov 2026); forwarded through label atzuqs2x under ikunzf[.]online, then yumsihjkk[.]cc; on a threat list NSS takes in, list date 4 Aug 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telergam-cdn99471.aa9977rt.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9b7606a3-fefc-4a71-9734-3f8f5735fa58",
+      "name": "Domain timerime-cdn3-hk62[.]xyz",
+      "description": "Moved host to host: host 4 (10 Nov 2026), then host 6 (12 Nov 2026); forwarded through label 59e8ragw under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timerime-cdn3-hk62.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--27869b7a-afe8-40d9-b7b0-a39013cf0453",
+      "name": "Domain timerime-cdn3-hk73[.]quest",
+      "description": "Moved host to host: host 3 (7 Nov 2026), then host 5 (8 Nov 2026); forwarded through label e4bqfth8 under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timerime-cdn3-hk73.quest']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3722c2f3-5b6c-40a4-9e56-911c2a3e6830",
+      "name": "Domain tokafimer-cdn6-hk33[.]homes",
+      "description": "Moved host to host: host 5 (9 Nov 2026), then host 6 (12 Nov 2026); forwarded through label bmrq8n59 under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokafimer-cdn6-hk33.homes']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--cc738336-b449-43fc-9fcf-ef650623ddb1",
+      "name": "Domain tokaixemcdn8-hk22[.]cfd",
+      "description": "Moved host to host: host 3 (10 Nov 2026), then host 6 (12 Nov 2026); forwarded through label cgz593am under ikunzf[.]online; on a threat list NSS takes in, list date 11 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaixemcdn8-hk22.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e724fb0c-3356-4023-a2b3-bb5aac01a9d5",
+      "name": "Domain tokanim-cdn13-hk13[.]club",
+      "description": "Moved host to host: host 5 (3 Nov 2026), then host 3 (3 Nov 2026), then host 4 (8 Nov 2026); forwarded through label 45gnmx6k under ikunzf[.]online; on a threat list NSS takes in, list date 18 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokanim-cdn13-hk13.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fef9b9e8-0238-4a5c-a1fb-35fa4865f672",
+      "name": "Domain tokanim-cdn19-hk19[.]club",
+      "description": "Moved host to host: host 2 (3 Nov 2026), then host 4 (3 Nov 2026), then host 5 (8 Nov 2026); forwarded through label pz43re72 under ikunzf[.]online; on a threat list NSS takes in, list date 18 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokanim-cdn19-hk19.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f93a6f7b-bdad-4850-af2b-396b53c3fe40",
+      "name": "Domain tokemiem-cdn35-hk61[.]click",
+      "description": "Moved host to host: host 3 (7 Nov 2026), then host 6 (12 Nov 2026); forwarded through label pjed5hzx under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemiem-cdn35-hk61.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3a69c2cb-7a0a-4b10-96c4-f9ed2a5a7799",
+      "name": "Domain tokemix-cdn07-hk07[.]club",
+      "description": "Moved host to host: host 4 (3 Nov 2026), then host 3 (8 Nov 2026); forwarded through label nwzmhugj under ikunzf[.]online; on a threat list NSS takes in, list date 18 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemix-cdn07-hk07.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--6de7f543-d99e-4725-8e00-772bf3d4454e",
+      "name": "Domain tokeniam-cdn2-hk23[.]autos",
+      "description": "Moved host to host: host 3 (7 Nov 2026), then host 5 (8 Nov 2026); forwarded through label 8px9g4dv under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn2-hk23.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fa75caaf-5dc9-47b2-9aeb-ea028695acbc",
+      "name": "Domain tokenim-cdn-sg[.]biz",
+      "description": "Moved host to host: host 1 (31 Oct 2026), then host 5 (7 Nov 2026); forwarded through label a8j3sbuf under ikunzf[.]online; on a threat list NSS takes in, list date 26 Sep 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenim-cdn-sg.biz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c09ab5e0-ef54-42e8-8e33-575eb8222a7c",
+      "name": "Domain tokenim-cdn27-hk3[.]monster",
+      "description": "Moved host to host: host 4 (10 Nov 2026), then host 6 (12 Nov 2026); forwarded through label du7v5eky under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenim-cdn27-hk3.monster']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8cf9a662-50ac-44d4-a965-f09fc167ea68",
+      "name": "Domain tokenmi[.]vip",
+      "description": "Moved host to host: host 5 (9 Nov 2026), then host 6 (12 Nov 2026); forwarded through label 2r36s5d9 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenmi.vip']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9529a2d7-3fce-4756-a161-f739b4afb748",
+      "name": "Domain tokevim-cdn26-hk26[.]club",
+      "description": "Moved host to host: host 4 (3 Nov 2026), then host 3 (8 Nov 2026); forwarded through label gq8z52rc under ikunzf[.]online; on a threat list NSS takes in, list date 18 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn26-hk26.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fcdfc5dd-1ed5-49f1-a4ea-bde7480415c8",
+      "name": "Domain tokevim-cdn90-hk90[.]club",
+      "description": "Moved host to host: host 5 (3 Nov 2026), then host 2 (3 Nov 2026), then host 3 (8 Nov 2026); forwarded through label g28xpcsa under ikunzf[.]online; on a threat list NSS takes in, list date 18 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn90-hk90.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--daa2d076-3a20-464a-a838-16a070d7ed16",
+      "name": "Domain hellogpt-cdn[.]club",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label fmr635hz under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'hellogpt-cdn.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5fe55e48-df02-454e-99ee-b70b13b37721",
+      "name": "Domain mtokeni[.]biz",
+      "description": "On host 5 from 9 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mtokeni.biz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bfc64e4d-14fe-41ab-bdd7-2d5b850d2a9e",
+      "name": "Domain teiegram-ca[.]com",
+      "description": "On host 6 from 13 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'teiegram-ca.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b1291c36-89b2-4e29-9583-7a2530ec79e0",
+      "name": "Domain teiegram-cs[.]com",
+      "description": "On host 6 from 14 Nov 2026; forwarded through label tkxrznq9 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'teiegram-cs.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5979cb1d-9f15-40d3-93be-8711ff596fe6",
+      "name": "Domain timeaim-cdn3-hk7[.]lol",
+      "description": "On host 4 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'timeaim-cdn3-hk7.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--710dab38-fac7-4c43-add7-f4b3571f8c88",
+      "name": "Domain tokaimn-cdn89-hk25[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label mtup86xv under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaimn-cdn89-hk25.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--4dac4066-0202-45c4-9820-99f0498531a3",
+      "name": "Domain tokairvm-cdn83-hk84[.]click",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label 45tyur97 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokairvm-cdn83-hk84.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5e05b809-54ab-4a37-ae54-e6d14a18d2a5",
+      "name": "Domain tokaixen-cdn84-hk29[.]cfd",
+      "description": "On host 5 from 9 Nov 2026; forwarded through label 9kyd4q5x under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokaixen-cdn84-hk29.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--72578f8e-72e6-437a-b6b3-4cf60bca22cc",
+      "name": "Domain tokanimx-cdn63-hk33[.]lol",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokanimx-cdn63-hk33.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1a6daf76-c759-4cbf-8586-3a06a813b869",
+      "name": "Domain tokanix-cdn87-hk43[.]lol",
+      "description": "On host 5 from 7 Nov 2026; forwarded through label fgkvctup under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokanix-cdn87-hk43.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0cc8a6fa-e0b2-4593-b5de-0ea68b4d41da",
+      "name": "Domain tokeaim-cdn09-hk44[.]autos",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label 6jmp4s2k under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaim-cdn09-hk44.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--979dc610-9fea-4c03-ad69-b5d77df7f9e9",
+      "name": "Domain tokeaivem-cdn34-hk77[.]pics",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label 4px73rny under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaivem-cdn34-hk77.pics']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--eeccfa54-655f-4fd6-9792-ecacdebfa83d",
+      "name": "Domain tokeaixm-cdn20-hk39[.]baby",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label uw7ckhgz under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeaixm-cdn20-hk39.baby']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d877a231-97e6-4ead-abcf-1ff25a38e3df",
+      "name": "Domain tokeiaem-cdn20-hk65[.]lol",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeiaem-cdn20-hk65.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8f57f413-0be6-4ace-9777-789ada42da65",
+      "name": "Domain tokeiemi-cdn39-hk83[.]sbs",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeiemi-cdn39-hk83.sbs']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9d581934-aabc-45b4-8818-9158989401ea",
+      "name": "Domain tokeikme-cdn64-hk54[.]lol",
+      "description": "On host 4 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeikme-cdn64-hk54.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a39bc83e-f607-4591-90cf-501169896d8c",
+      "name": "Domain tokeimx-cdnnode-sg16[.]xyz",
+      "description": "On host 3 from 7 Nov 2026; on a threat list NSS takes in, list date 10 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeimx-cdnnode-sg16.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a50ea650-ff21-4158-a9d5-2d3ac259f19c",
+      "name": "Domain tokeincm-cdn13-hk18[.]baby",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeincm-cdn13-hk18.baby']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a3246501-f9a7-4147-b631-50efe30a9be0",
+      "name": "Domain tokeins-cdn8-hk42[.]lol",
+      "description": "On host 5 from 8 Nov 2026; forwarded through label jgrd8267 under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeins-cdn8-hk42.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e00fdf02-79e1-4f04-806c-5a217e85901f",
+      "name": "Domain tokeinsm-cdn8-hk4[.]beauty",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeinsm-cdn8-hk4.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--655fec27-4ba6-4f25-8f1a-7c761f9e612b",
+      "name": "Domain tokeirm-cdn04-hk36[.]xyz",
+      "description": "On host 5 from 9 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeirm-cdn04-hk36.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--634e703a-3ffa-433c-b3b1-91a45c4381f2",
+      "name": "Domain tokeixm-cdn19-hk84[.]lol",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeixm-cdn19-hk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bd884391-5c0a-4e7a-8082-738a397819e7",
+      "name": "Domain tokemie-cdn6-hk1[.]cfd",
+      "description": "On host 5 from 5 Nov 2026; forwarded through label wxtqhmbu under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemie-cdn6-hk1.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ad9b8a3a-3efb-4566-8430-160cff3f43dc",
+      "name": "Domain tokemien-cdn6-hk65[.]click",
+      "description": "On host 3 from 9 Nov 2026; forwarded through label b82anjg6 under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemien-cdn6-hk65.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8b8a7e26-c99f-42b3-b485-0260c8dfaf74",
+      "name": "Domain tokemim-cdn2-hk2[.]click",
+      "description": "On host 3 from 5 Nov 2026; forwarded through label bc95yztu under ikunzf[.]online; on a threat list NSS takes in, list date 3 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemim-cdn2-hk2.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--4b714100-3a83-47d3-89dd-611a6b3a9930",
+      "name": "Domain tokemim-cdn73-hk73[.]club",
+      "description": "On host 4 from 3 Nov 2026; forwarded through label jmy8rane under ikunzf[.]online; on a threat list NSS takes in, list date 15 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemim-cdn73-hk73.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dfeb80fb-539f-495e-bb81-f167cc2c0a86",
+      "name": "Domain tokemine-cdn07-hk6[.]monster",
+      "description": "On host 4 from 7 Nov 2026; forwarded through label 2stqnbc3 under ikunzf[.]online; on a threat list NSS takes in, list date 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemine-cdn07-hk6.monster']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a124f9d9-fe8a-451b-95e6-8be8b4fc6b9c",
+      "name": "Domain tokemine-cdn21-hk8[.]lol",
+      "description": "On host 3 from 7 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemine-cdn21-hk8.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8e566a60-e40e-47af-b224-ce8634d1263a",
+      "name": "Domain tokemirn-cdn21-hk83[.]autos",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemirn-cdn21-hk83.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--22e432af-b9c2-4d7e-8262-1579da9dfbe9",
+      "name": "Domain tokemixn-cdn51-hk29[.]autos",
+      "description": "On host 6 from 13 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokemixn-cdn51-hk29.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--029ed846-87a0-467b-9640-f44e472b565d",
+      "name": "Domain tokeniam-cdn04-hk38[.]lat",
+      "description": "On host 6 from 12 Nov 2026; forwarded through label 7j6etn28 under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn04-hk38.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ccf8eb19-69fe-4113-aabc-845abf396b18",
+      "name": "Domain tokeniam-cdn2-hk23[.]lat",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniam-cdn2-hk23.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2ecdf3b8-0831-4cb9-ae03-2d5157378f40",
+      "name": "Domain tokenianv-cdn55-hk35[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label z26urbxa under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenianv-cdn55-hk35.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3cd161ab-7c8e-4479-ae6d-623b180389f2",
+      "name": "Domain tokeniem-cdn04-hk31[.]lol",
+      "description": "On host 6 from 12 Nov 2026; forwarded through label 9r2b8vj7 under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn04-hk31.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2e7c9720-57bf-416a-939a-16a9daef4f4e",
+      "name": "Domain tokeniem-cdn11-hk41[.]click",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label 593c2suq under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn11-hk41.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--14b4c22a-970a-4dd3-bfac-df3f792c360a",
+      "name": "Domain tokeniem-cdn61-hk46[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label mw47hy56 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniem-cdn61-hk46.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3b1bf402-eb1c-4c31-bea6-f62a8a51cedb",
+      "name": "Domain tokeniern-cdn4-hk12[.]lol",
+      "description": "On host 5 from 8 Nov 2026; forwarded through label arz4mfpu under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokeniern-cdn4-hk12.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0455532e-f0d4-4d5e-ac19-e8a0e4e01d55",
+      "name": "Domain tokenimx-cdn-edge-hk07[.]club",
+      "description": "On host 2 from 5 Nov 2026; forwarded through label cpmjvzts under ikunzf[.]online; on a threat list NSS takes in, list date 30 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenimx-cdn-edge-hk07.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2e4cfca5-1894-4120-88b4-40d0d4cad578",
+      "name": "Domain tokenirm-cdn72-hk84[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label jrhbc437 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenirm-cdn72-hk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2c906e41-acc8-4f9b-a3ff-444e4aa3a7a8",
+      "name": "Domain tokenism-cdn01-hk31[.]cfd",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label bnjhua7r under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn01-hk31.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5519a48a-0b3a-455b-bd6a-e6ced4f716dc",
+      "name": "Domain tokenism-cdn08-hk39[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label vmtnszfj under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn08-hk39.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e4294cd5-460f-4a0e-86f9-48ce095de5e1",
+      "name": "Domain tokenism-cdn08-hk52[.]quest",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label 4q5tusab under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn08-hk52.quest']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--12a1dc87-5269-41e6-a146-dbc30fa21c92",
+      "name": "Domain tokenism-cdn17-hk17[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label j8mhacg6 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn17-hk17.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--54c73597-d3c6-4c5e-98b9-3a1c0e62bb55",
+      "name": "Domain tokenism-cdn27-hk33[.]pics",
+      "description": "On host 3 from 8 Nov 2026; forwarded through label ytvwan3s under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn27-hk33.pics']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--57d8e71a-a67c-49db-a797-c2eb7144dfe3",
+      "name": "Domain tokenism-cdn52-hk13[.]autos",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label dkprt6mu under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn52-hk13.autos']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--69e08c63-f75f-4d39-8f2d-7754546cbd0d",
+      "name": "Domain tokenism-cdn58-hk84[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label eaztcmur under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn58-hk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--85e2b346-2614-4aaf-abc0-d89dcd4b5cc4",
+      "name": "Domain tokenism-cdn81-hk08[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label qkvd7nj2 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn81-hk08.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dc47600f-4509-40d0-84e1-1ff4cee4c10b",
+      "name": "Domain tokenism-cdn94-hk19[.]lat",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label at73egds under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenism-cdn94-hk19.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--78f1f552-7381-47ae-97ee-42182dcd4039",
+      "name": "Domain tokenixm-cdn12-hk65[.]lol",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label reaqbxjy under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenixm-cdn12-hk65.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--50c6e0ce-a455-49ea-b3b9-f61c76f1bc35",
+      "name": "Domain tokennim-cdn57-hk16[.]click",
+      "description": "On host 4 from 5 Nov 2026; forwarded through label km9e8wdj under ikunzf[.]online; on a threat list NSS takes in, list date 1 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokennim-cdn57-hk16.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7eb14f1c-ec3b-4fa3-947f-a6481db3b10f",
+      "name": "Domain tokenpoket[.]vip",
+      "description": "On host 6 from 13 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoket.vip']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d78c857a-f504-4d43-82bc-575de349797a",
+      "name": "Domain tokenpoketcim-pop-sg31[.]xyz",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label 4tw68va7 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketcim-pop-sg31.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--69f0b20e-0553-407d-9ac8-7ffb1d26d2d4",
+      "name": "Domain tokenpoketina-edge-tw39[.]click",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label x2sb4rpu under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketina-edge-tw39.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--13582995-6a02-4e3f-83a6-679554bd9047",
+      "name": "Domain tokenpoketnerm-cdn-sg54[.]beauty",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label dzfb2754 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketnerm-cdn-sg54.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d2bd23b1-6300-4060-80ad-6f1635048983",
+      "name": "Domain tokenpoketnv-cdn-jp28[.]xyz",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label zyd8c6ab under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketnv-cdn-jp28.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--cc713c14-1d3b-450f-8709-c103f8c01186",
+      "name": "Domain tokenpoketpaime-cdn-uk84[.]lol",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label wdqjf4sr under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketpaime-cdn-uk84.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8bdf4e4b-3001-4345-8144-a7c14c23a7f4",
+      "name": "Domain tokenpoketprie-cdn-uk21[.]xyz",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label mueazxg4 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketprie-cdn-uk21.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ec01287b-679d-4649-84c9-c218c7b2fdba",
+      "name": "Domain tokenpoketprnv-gw-sg16[.]xyz",
+      "description": "On host 6 from 13 Nov 2026; forwarded through label 7ywcxf34 under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenpoketprnv-gw-sg16.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--69896cb0-53cb-49ea-8b5f-3f884110d161",
+      "name": "Domain tokenram-cdn81-hk41[.]monster",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label at953dsb under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokenram-cdn81-hk41.monster']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--00b3cc52-2b1a-4632-b8c7-d3b7fd8bd1e6",
+      "name": "Domain tokevim-cdn-hk0[.]homes",
+      "description": "On host 1 from 31 Oct 2026; forwarded through label 5nqxe7yd under ikunzf[.]online; on a threat list NSS takes in, list date 31 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn-hk0.homes']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f4ce3e80-d612-4e39-8e1b-c37236911942",
+      "name": "Domain tokevim-cdn0-hk43[.]cfd",
+      "description": "On host 6 from 12 Nov 2026; forwarded through label xfmbevpq under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn0-hk43.cfd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9dcab212-d1bf-4748-9e55-9c3f82fe3507",
+      "name": "Domain tokevim-cdn32-hk61[.]lol",
+      "description": "On host 1 from 27 Oct 2026; forwarded through label 8v75jux4 under ikunzf[.]online; on a threat list NSS takes in, list date 27 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn32-hk61.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--46b2d96f-680f-47ef-9cc9-e8dc5092899a",
+      "name": "Domain tokevim-cdn83-hk49[.]lol",
+      "description": "On host 1 from 31 Oct 2026; forwarded through label jq25hwxu under ikunzf[.]online; on a threat list NSS takes in, list date 31 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevim-cdn83-hk49.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--044d99ce-0f20-40ac-b778-72c8e98bcb9c",
+      "name": "Domain tokevixn-cdn09-hk6[.]lol",
+      "description": "On host 5 from 7 Nov 2026; forwarded through label 86ebmh2n under ikunzf[.]online; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokevixn-cdn09-hk6.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8ee72b5d-1e24-4f96-a452-62e6f4b6c297",
+      "name": "Domain tokexim-cdn35-hk6[.]lol",
+      "description": "On host 4 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokexim-cdn35-hk6.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--74e5dad0-dd5a-447c-9a22-97eaf580e128",
+      "name": "Domain tokieiarm-cdn45-hk73[.]click",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokieiarm-cdn45-hk73.click']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b3928938-62e3-44f1-b3eb-b9285a073896",
+      "name": "Domain tokieninn-cdn18-hk79[.]homes",
+      "description": "On host 5 from 9 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokieninn-cdn18-hk79.homes']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5342f721-0fe7-44b1-816e-7a7dfb4c7151",
+      "name": "Domain tokienxm-cdn8-hk43[.]sbs",
+      "description": "On host 3 from 8 Nov 2026; forwarded through label 5xemrwdj under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokienxm-cdn8-hk43.sbs']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--46cd56d8-5024-4b2c-8b75-386c0af6c373",
+      "name": "Domain tokinbin-cdn38-hk52[.]xyz",
+      "description": "On host 5 from 9 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinbin-cdn38-hk52.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5c2787b5-72ff-4fae-837e-3be7d4c054a6",
+      "name": "Domain tokiniem-cdn05-hk9[.]lol",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokiniem-cdn05-hk9.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9756026e-8381-48dd-888e-0275ebcd0f67",
+      "name": "Domain tokinim-cdn18-hk7[.]lol",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinim-cdn18-hk7.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0292b474-b58c-49ee-b3b6-80ff77602d57",
+      "name": "Domain tokinim-cdn41-hk41[.]club",
+      "description": "On host 3 from 5 Nov 2026; forwarded through label u4qmrh9e under ikunzf[.]online; on a threat list NSS takes in, list date 22 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinim-cdn41-hk41.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5c2ca422-fb6f-4a77-b279-579b46b70198",
+      "name": "Domain tokininx-cdn18-hk78[.]lol",
+      "description": "On host 3 from 8 Nov 2026; forwarded through label z5x6jr8n under ikunzf[.]online; on a threat list NSS takes in, list date 8 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokininx-cdn18-hk78.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1986bb45-3af1-42a7-9f94-81cbd9569c76",
+      "name": "Domain tokinix-cdn21-hk21[.]club",
+      "description": "On host 2 from 5 Nov 2026; forwarded through label kh59pnq3 under ikunzf[.]online; on a threat list NSS takes in, list date 22 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokinix-cdn21-hk21.club']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2add31ef-3024-4faf-b187-a33613d99915",
+      "name": "Domain tokirvimcdn35-hk21[.]blog",
+      "description": "On host 6 from 14 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokirvimcdn35-hk21.blog']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f9c1dd49-00d9-44e3-8a55-2efd2e470fef",
+      "name": "Domain tokrnims-cdn7-hk75[.]lol",
+      "description": "On host 3 from 10 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnims-cdn7-hk75.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--98fd5c14-05e2-40ee-b4c3-40c2cb0ac1ae",
+      "name": "Domain tokrnixin-cdn7-hk73[.]lol",
+      "description": "On host 3 from 7 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnixin-cdn7-hk73.lol']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b463ca70-5747-466a-8362-8e190d27a6e9",
+      "name": "Domain tokrnixin-cdn97-hk7[.]xyz",
+      "description": "On host 5 from 9 Nov 2026; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tokrnixin-cdn97-hk7.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7dea1cc3-1e09-4f68-8f1b-6343495959f4",
+      "name": "Domain tolearn-cdn30-hk24[.]beauty",
+      "description": "On host 6 from 11 Nov 2026; forwarded through label e2ycb5ug under yumsihjkk[.]cc; on no threat list NSS takes in (14 Nov 2026)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tolearn-cdn30-hk24.beauty']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f6e4ac2a-25ae-421f-b639-d55075d88b2f",
+      "name": "Domain app[.]app-lestalk[.]com[.]cn",
+      "description": "Fake-software download name in the same forwarding layer (a label under ikunzf[.]online in NSS's record); on a threat list NSS takes in, list date 10 Nov 2026; not attributed to the operator",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'app.app-lestalk.com.cn']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a2646e6d-0527-4fdb-b20e-21ffb1d77b7a",
+      "name": "Domain download-sougou[.]com[.]cn",
+      "description": "Fake-software download name in the same forwarding layer (a label under ikunzf[.]online in NSS's record); on a threat list NSS takes in, list date 31 Aug 2026; not attributed to the operator",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'download-sougou.com.cn']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--67514892-60ba-4155-9d02-9532491ec5f9",
+      "name": "Domain download[.]google-chrome[.]cyou",
+      "description": "Fake-software download name in the same forwarding layer (a label under ikunzf[.]online in NSS's record); on a threat list NSS takes in, list date 15 Mar 2026; not attributed to the operator",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'download.google-chrome.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-14T00:00:00.000Z",
+      "modified": "2026-11-14T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--14ffb00e-e3f8-4021-8e0a-e327bc332331",
+      "name": "Domain download[.]tfyxzai[.]com",
+      "description": "Fake-software download name in the same forwarding layer (a label under ikunzf[.]online in NSS's record); on a threat list NSS takes in, list date 6 Aug 2026; not attributed to the operator",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'download.tfyxzai.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T00:00:00Z",
+      "labels": [
+        "NSS-TL-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-TL-01",
+          "url": "https://nsshq.com/research/wallet-phishing-host-lineage"
+        }
+      ]
+    }
+  ]
+}
