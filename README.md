@@ -10,6 +10,7 @@ NSS, the Nexus Sentinel Station, is a threat intelligence platform run by ALLITS
 
 | Paper | Title | Published | Indicators | Read |
 |---|---|---|---|---|
+| [NSS-KD-01](NSS-KD-01-game-account-phishing-children/) | Phishing aimed at children and their families: 188 look-alike names in six sets | 2026-11-16 | 192 | [nsshq.com](https://nsshq.com/research/game-account-phishing-children) |
 | [NSS-TL-01](NSS-TL-01-wallet-phishing-host-lineage/) | One wallet-phishing operator, six servers in three weeks: followed by the names it carried host to host | 2026-11-14 | 116 | [nsshq.com](https://nsshq.com/research/wallet-phishing-host-lineage) |
 | [NSS-TK-01](NSS-TK-01-fake-imtoken-download-sites/) | Fake imToken download sites push an Android app that sends recovery phrases and private keys to one server: technical analysis | 2026-11-13 | 75 | [nsshq.com](https://nsshq.com/research/fake-imtoken-download-sites) |
 | [NSS-GR-01](NSS-GR-01-aldi-lidl-lookalike-shop-names/) | A name generator behind 294 Aldi and Lidl look-alike .shop names: technical analysis | 2026-11-13 | 261 | [nsshq.com](https://nsshq.com/research/aldi-lidl-lookalike-shop-names) |
