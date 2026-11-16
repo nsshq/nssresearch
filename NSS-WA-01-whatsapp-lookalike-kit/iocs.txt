@@ -4,7 +4,7 @@
 # DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
 # Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
 #   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
-# 52 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+# 83 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
 occ-vvhatsapp[.]cyou
 occ-vvhatsapp[.]shop
 occ-vvhatsapp[.]top
@@ -57,3 +57,34 @@ asz-vvhatsapp[.]cyou
 asz-vvhatsapp[.]icu
 asz-vvhatsapp[.]top
 msc3nbqr[.]2027facai[.]com
+asc-vvhatsapp[.]shop
+asx-vvhatsapp[.]shop
+wac-vvhatsapp[.]cyou
+wae-vvhatsapp[.]xyz
+wac-vvhatsapp[.]icu
+wae-vvhatsapp[.]icu
+vvww-vvhatsapp[.]cyou
+vww-vvhatsapp[.]cyou
+vww-vvhatsapp[.]icu
+wwvv-vvhatsapp[.]cyou
+vvww-vvhatsapp[.]top
+vww-vvhatsapp[.]top
+wwv-vvhatsapp[.]shop
+wwvv-vvhatsapp[.]top
+wwv-vvhatsapp[.]top
+wnvv-vvhatsapp[.]cyou
+wnvv-vvhatsapp[.]cc
+wevv-vvhatsapp[.]icu
+wnvv-vvhatsapp[.]icu
+wnvv-vvhatsapp[.]top
+wevv-vvhatsapp[.]top
+wevv-vvhatsapp[.]cyou
+wevv-vvhatsapp[.]cc
+wsvv-vvhatsapp[.]icu
+wsvv-vvhatsapp[.]top
+wzvv-vvhatsapp[.]top
+wavv-vvhatsapp[.]top
+wsvv-vvhatsapp[.]cyou
+wsvv-vvhatsapp[.]cc
+cname360[.]com
+msc3nbqr[.]cname360[.]com

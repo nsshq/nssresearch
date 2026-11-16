@@ -36,13 +36,13 @@
       "spec_version": "2.1",
       "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
       "created": "2026-11-10T00:00:00.000Z",
-      "modified": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
       "object_marking_refs": [
         "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
       ],
       "id": "report--2176df1c-f72e-4cb3-ba33-4e41fafc4593",
       "name": "WhatsApp lookalike kit: technical analysis",
-      "description": "Over three days in late October 2026, 51 domain names imitating WhatsApp were registered in three batches, each batch within a single minute. NSS recorded every one within 27 hours of its registration, tied the 51 together from public registration and hosting records, and read a copy of the WhatsApp sign-in page on 11 of them. This paper sets out what was observed, how the names were tied together, and what a defender can look for.",
+      "description": "Over three days in late October 2026, 51 domain names imitating WhatsApp were registered in three batches, each batch within a single minute. NSS recorded every one within 27 hours of its registration, tied the 51 together from public registration and hosting records, and read a copy of the WhatsApp sign-in page on 11 of them. This paper sets out what was observed, how the names were tied together, and what a defender can look for. Updated 16 November 2026: 29 more names since publication, and the relay behind them has moved to a new domain.",
       "report_types": [
         "threat-report"
       ],
@@ -99,7 +99,38 @@
         "indicator--5a1e0a73-f550-489d-8158-462f12218cc0",
         "indicator--20635baa-dac3-4317-b46c-3c4619e58f41",
         "indicator--5868e586-ee9a-4ac9-9c0b-1e795a750ff7",
-        "indicator--3c28771b-ae5c-4ad5-9c79-2ff77f421af8"
+        "indicator--3c28771b-ae5c-4ad5-9c79-2ff77f421af8",
+        "indicator--b675c3be-e9e5-4768-8a08-77825fdffba3",
+        "indicator--98df0c7a-e86a-4b77-a11e-2b1f88b55fbf",
+        "indicator--8afc1b9a-3481-4702-b656-bd028b4971e7",
+        "indicator--8e9bb5fc-b89d-47e2-b172-d7ad0947c6f7",
+        "indicator--c14a5f7d-f118-4a72-bce2-17c56ae6239d",
+        "indicator--f8630b05-6d8c-46e4-9151-1848f711cebf",
+        "indicator--efec257e-000f-433c-bc6f-db9a402a5168",
+        "indicator--e9787dcc-69e5-4e59-aaf8-dfbd4b0932d0",
+        "indicator--91bd852c-a8a5-4a13-8e6b-af1a3e5f4b26",
+        "indicator--a79d4d46-a578-4ebc-be71-48d30fa9b8e1",
+        "indicator--e126573f-c316-4c81-a35c-638298754f3d",
+        "indicator--d7ee98c0-a315-4c0a-9861-aaa9698ddf3f",
+        "indicator--0e7cf7fa-4e26-4365-9390-9b2103180637",
+        "indicator--5d177108-df14-4e82-acc2-9cbe353ab7dd",
+        "indicator--1d225472-d7f6-4eab-9dee-2dc59c396d68",
+        "indicator--920a35eb-deec-4ef8-b9e5-f4023b338236",
+        "indicator--232ea4a2-e82b-49ff-8ccf-6c0c0ed14cb3",
+        "indicator--c585ae76-c3c3-423d-9c69-a666d8f3950b",
+        "indicator--46cde635-ffa6-41cc-b52f-339d815484e1",
+        "indicator--b170d017-27f5-4e7e-920c-dc32494b676c",
+        "indicator--c6b5444e-8a00-4063-84ab-da9e651d68cc",
+        "indicator--9c0b07b9-e197-4a9e-88e8-2a610f264c3d",
+        "indicator--f2aef263-dcc3-437b-b48c-0a1d6d052824",
+        "indicator--2aaea025-b65d-4ced-bb42-2e25a52c6552",
+        "indicator--26f4c737-7073-41f2-b4c8-549b829a02bd",
+        "indicator--b58fd344-e4a9-4600-95d3-571331ef4856",
+        "indicator--a07d1bbe-aec5-45f4-95c5-73a88a294822",
+        "indicator--35e8cd09-759e-47f2-94b6-f1c8a8a0d49a",
+        "indicator--2d4ed107-cfdc-4be8-add8-c5e2ab02e1ac",
+        "indicator--8412361b-1cc1-40e1-9823-46bf0c218406",
+        "indicator--a5f3a55d-f3a8-46e1-93e2-297969e2a9e7"
       ],
       "labels": [
         "NSS-WA-01"
@@ -1666,6 +1697,936 @@
       "pattern_type": "stix",
       "pattern_version": "2.1",
       "valid_from": "2026-11-10T00:00:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b675c3be-e9e5-4768-8a08-77825fdffba3",
+      "name": "Domain asc-vvhatsapp[.]shop",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 7 Nov 04:33 UTC; tied by address and registration day to the asx .shop name below",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'asc-vvhatsapp.shop']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-07T04:33:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--98df0c7a-e86a-4b77-a11e-2b1f88b55fbf",
+      "name": "Domain asx-vvhatsapp[.]shop",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 7 Nov 04:33 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'asx-vvhatsapp.shop']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-07T04:33:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8afc1b9a-3481-4702-b656-bd028b4971e7",
+      "name": "Domain wac-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 10 Nov 05:11 UTC; tied by address to names already in the kit",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wac-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-10T05:11:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8e9bb5fc-b89d-47e2-b172-d7ad0947c6f7",
+      "name": "Domain wae-vvhatsapp[.]xyz",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 10 Nov 05:11 UTC; tied by address to names already in the kit",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wae-vvhatsapp.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-10T05:11:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c14a5f7d-f118-4a72-bce2-17c56ae6239d",
+      "name": "Domain wac-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 10 Nov 05:11 UTC; tied by address to names already in the kit",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wac-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-10T05:11:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f8630b05-6d8c-46e4-9151-1848f711cebf",
+      "name": "Domain wae-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 10 Nov 05:11 UTC; tied by address to names already in the kit",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wae-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-10T05:11:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--efec257e-000f-433c-bc6f-db9a402a5168",
+      "name": "Domain vvww-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 11 Nov 04:20 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vvww-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-11T04:20:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e9787dcc-69e5-4e59-aaf8-dfbd4b0932d0",
+      "name": "Domain vww-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 11 Nov 04:20 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vww-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-11T04:20:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--91bd852c-a8a5-4a13-8e6b-af1a3e5f4b26",
+      "name": "Domain vww-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 11 Nov 04:20 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vww-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-11T04:20:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a79d4d46-a578-4ebc-be71-48d30fa9b8e1",
+      "name": "Domain wwvv-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 11 Nov 16:10 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wwvv-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-11T16:10:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e126573f-c316-4c81-a35c-638298754f3d",
+      "name": "Domain vvww-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 06:05 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vvww-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T06:05:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d7ee98c0-a315-4c0a-9861-aaa9698ddf3f",
+      "name": "Domain vww-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 06:05 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vww-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T06:05:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0e7cf7fa-4e26-4365-9390-9b2103180637",
+      "name": "Domain wwv-vvhatsapp[.]shop",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 06:05 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wwv-vvhatsapp.shop']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T06:05:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5d177108-df14-4e82-acc2-9cbe353ab7dd",
+      "name": "Domain wwvv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 06:05 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wwvv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T06:05:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1d225472-d7f6-4eab-9dee-2dc59c396d68",
+      "name": "Domain wwv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 09:35 UTC; forwards through the relay domain 2027facai[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wwv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T09:35:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--920a35eb-deec-4ef8-b9e5-f4023b338236",
+      "name": "Domain wnvv-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 12 Nov 20:31 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wnvv-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T20:31:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--232ea4a2-e82b-49ff-8ccf-6c0c0ed14cb3",
+      "name": "Domain wnvv-vvhatsapp[.]cc",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 13 Nov 06:49 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wnvv-vvhatsapp.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T06:49:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c585ae76-c3c3-423d-9c69-a666d8f3950b",
+      "name": "Domain wevv-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 13 Nov 06:59 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wevv-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T06:59:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--46cde635-ffa6-41cc-b52f-339d815484e1",
+      "name": "Domain wnvv-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 13 Nov 06:59 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wnvv-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-13T06:59:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b170d017-27f5-4e7e-920c-dc32494b676c",
+      "name": "Domain wnvv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 14 Nov 11:15 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wnvv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T11:15:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c6b5444e-8a00-4063-84ab-da9e651d68cc",
+      "name": "Domain wevv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 14 Nov 20:10 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wevv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T20:10:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9c0b07b9-e197-4a9e-88e8-2a610f264c3d",
+      "name": "Domain wevv-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 14 Nov 20:19 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wevv-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T20:19:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f2aef263-dcc3-437b-b48c-0a1d6d052824",
+      "name": "Domain wevv-vvhatsapp[.]cc",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 14 Nov 20:50 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wevv-vvhatsapp.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T20:50:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2aaea025-b65d-4ced-bb42-2e25a52c6552",
+      "name": "Domain wsvv-vvhatsapp[.]icu",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 15 Nov 10:53 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wsvv-vvhatsapp.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-15T10:53:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--26f4c737-7073-41f2-b4c8-549b829a02bd",
+      "name": "Domain wsvv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 15 Nov 16:29 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wsvv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-15T16:29:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b58fd344-e4a9-4600-95d3-571331ef4856",
+      "name": "Domain wzvv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 15 Nov 16:29 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wzvv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-15T16:29:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a07d1bbe-aec5-45f4-95c5-73a88a294822",
+      "name": "Domain wavv-vvhatsapp[.]top",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 15 Nov 16:31 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wavv-vvhatsapp.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-15T16:31:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--35e8cd09-759e-47f2-94b6-f1c8a8a0d49a",
+      "name": "Domain wsvv-vvhatsapp[.]cyou",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 15 Nov 22:37 UTC; forwards through the relay domain cname360[.]com under its own label",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wsvv-vvhatsapp.cyou']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-15T22:37:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2d4ed107-cfdc-4be8-add8-c5e2ab02e1ac",
+      "name": "Domain wsvv-vvhatsapp[.]cc",
+      "description": "Added in the 16 Nov 2026 update. First recorded by NSS 16 Nov 01:01 UTC; tied by address to names already in the kit",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wsvv-vvhatsapp.cc']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-16T01:01:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8412361b-1cc1-40e1-9823-46bf0c218406",
+      "name": "Domain cname360[.]com",
+      "description": "Added in the 16 Nov 2026 update. The relay domain the kit moved to on 12 Nov 2026. Every name NSS recorded under it to 16 Nov (22) is this kit's or a crypto-wallet lookalike that moved with it: block it and every name that forwards through it",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'cname360.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-12T17:35:00Z",
+      "labels": [
+        "NSS-WA-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-WA-01",
+          "url": "https://nsshq.com/research/whatsapp-lookalike-kit"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a5f3a55d-f3a8-46e1-93e2-297969e2a9e7",
+      "name": "Domain msc3nbqr[.]cname360[.]com",
+      "description": "Added in the 16 Nov 2026 update. The relay label every per-name label pointed at on 14 Nov 2026, carried over unchanged from msc3nbqr[.]2027facai[.]com. Any name that forwards to it is a sibling",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'msc3nbqr.cname360.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-14T22:00:00Z",
       "labels": [
         "NSS-WA-01"
       ],
