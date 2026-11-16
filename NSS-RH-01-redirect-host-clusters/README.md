@@ -13,7 +13,7 @@ Two address blocks on two different networks answer for the same 319 throwaway n
 
 - **319** names answering from the two blocks
 - **100** recorded by NSS and on no list NSS holds
-- **21 min** median from certificate log to NSS record
+- **21 min** median from a name's certificate to NSS record
 - **13** purchase batches holding 140 registered names
 
 ## Files

@@ -241,7 +241,7 @@
       ],
       "id": "indicator--f587bf24-b8ed-4eed-87f5-efb6fab74102",
       "name": "IP address 195[.]245[.]242[.]143",
-      "description": "Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked every 30 days",
+      "description": "Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked regularly",
       "indicator_types": [
         "malicious-activity"
       ],

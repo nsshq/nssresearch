@@ -65,7 +65,7 @@
         "value": "195.245.242.143",
         "to_ids": true,
         "distribution": "5",
-        "comment": "Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked every 30 days",
+        "comment": "Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked regularly",
         "timestamp": "1794528000",
         "disable_correlation": false
       },

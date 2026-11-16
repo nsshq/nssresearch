@@ -2,7 +2,7 @@ indicator,type,note
 pt888999.com,domain,Receives the recovery phrase and account list of every wallet the app creates or imports (POST /api/task/batch_update); registered 3 Jul 2025; resolved to 195.245.242.143 on 13 Nov 2026; on no threat list NSS takes in
 api.quick-node.com,domain,"The app's main back end: receives phrase creation, wallet creation, phrase and key import, keystore export and every transfer, private key included; imitates QuickNode, a real blockchain-node provider that is not involved; a browser is sent on to the real provider's site; resolved to 195.245.242.143 on 13 Nov 2026; on no threat list NSS takes in"
 quick-node.com,domain,"Registered 2025-06-20; rates High because its own DNS publishes the private-key collector; its www host copies QuickNode's site. QuickNode is not involved, and the domain is not attributed to an operator. Block this name only, never the real provider's domain"
-195.245.242.143,ipv4,"Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked every 30 days"
+195.245.242.143,ipv4,"Where both exfiltration names resolved on 13 Nov 2026; an indicator as of that date, not an operator asset; re-checked regularly"
 yumsihjkk.cc,domain,"Forwarding domain, registered 11 Nov 04:47 UTC; 25 of the names pointed to it on 13 Nov"
 z6pnwmjk.yumsihjkk.cc,domain,The shared host every forwarding label points to; resolved to 82.158.231.42 on 13 Nov
 82.158.231.42,ipv4,Forwarding address; classed dedicated by NSS; 20 of the 53 names on first resolution; served the imToken copy on 13 Nov

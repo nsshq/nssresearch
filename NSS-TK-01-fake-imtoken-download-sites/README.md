@@ -12,7 +12,7 @@ Copies of imToken's Chinese website offer an Android app from outside the offici
 ## What NSS measured
 
 - **1** server behind both names the app sends recovery phrases and private keys to
-- **53** look-alike names NSS recorded from new registrations, 8 to 12 November
+- **53** look-alike names NSS's own sensors recorded, 8 to 12 November
 - **5** purchases of ten names each, every one inside 2 seconds
 - **40 of 53** names on no threat list NSS takes in on 13 November
 

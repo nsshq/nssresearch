@@ -7,7 +7,7 @@
 
 ## Summary
 
-In nine hours from 17:15 UTC on 12 November 2026, NSS's certificate records logged 294 .shop names that put an Aldi or Lidl label in front of a generated shop name, such as lidldeals[.]kelmsfordgrocer[.]shop. 222 carry a Lidl label; the 2,043 names of this shape on public lists before then carried almost only Aldi labels. The 30 registrations NSS sampled were bought at one registrar between April and July 2026, eight within 10 seconds, and left unused until November. Two branded shop pages were live when NSS loaded them; three names from the 41-word grid served no page. On 13 November 284 of the 294 were on no list NSS holds; an update follows on 20 November.
+In nine hours from 17:15 UTC on 12 November 2026, NSS's own sensors logged 294 .shop names that put an Aldi or Lidl label in front of a generated shop name, such as lidldeals[.]kelmsfordgrocer[.]shop. 222 carry a Lidl label; the 2,043 names of this shape on public lists before then carried almost only Aldi labels. The 30 registrations NSS sampled were bought at one registrar between April and July 2026, eight within 10 seconds, and left unused until November. Two branded shop pages were live when NSS loaded them; three names from the 41-word grid served no page. On 13 November 284 of the 294 were on no list NSS holds; an update follows on 20 November.
 
 ## What NSS measured
 

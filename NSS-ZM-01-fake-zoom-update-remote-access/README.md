@@ -7,7 +7,7 @@
 
 ## Summary
 
-A page made to look like a Zoom meeting tells the visitor their app is out of date and offers an update. The update is a ScreenConnect remote-access client set to call a server its sender runs; whoever runs it hands over control of their computer. NSS took the page from the day's new registrations, captured it, read the installer and traced it to that server within 23 hours of the page's registration. The server's domain was registered 63 days before the lure. None of the nine indicators was on any list NSS holds on 12 November 2026.
+A page made to look like a Zoom meeting tells the visitor their app is out of date and offers an update. The update is a ScreenConnect remote-access client set to call a server its sender runs; whoever runs it hands over control of their computer. NSS's own sensors picked up the page; NSS captured it, read the installer and traced it to that server within 23 hours of the page's registration. The server's domain was registered 63 days before the lure. None of the nine indicators was on any list NSS holds on 12 November 2026.
 
 ## What NSS measured
 
