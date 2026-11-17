@@ -1,0 +1,29 @@
+# NSS-AX-01: 24 additional ARTEX consoles live on 14 November 2026, and the reseller layer behind them: a companion to the FBI FLASH
+# https://nsshq.com/research/artex-consoles-beyond-the-flash
+# Published 2026-11-17. TLP:CLEAR. Licence CC BY 4.0, credit Nexus Sentinel Station (NSS).
+# DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
+# Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
+#   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
+# 22 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+xcai[.]pro
+101[.]53[.]80[.]20
+103[.]248[.]148[.]84
+124[.]155[.]252[.]63
+144[.]172[.]64[.]128
+144[.]172[.]64[.]60
+144[.]172[.]64[.]99
+154[.]201[.]79[.]246
+178[.]16[.]54[.]129
+199[.]19[.]95[.]66
+199[.]19[.]95[.]67
+199[.]19[.]95[.]68
+203[.]160[.]133[.]172
+205[.]214[.]59[.]31
+209[.]209[.]85[.]38
+23[.]158[.]220[.]98
+23[.]248[.]249[.]90
+31[.]77[.]229[.]35
+38[.]244[.]50[.]120
+85[.]11[.]167[.]52
+85[.]11[.]168[.]45
+91[.]92[.]240[.]238

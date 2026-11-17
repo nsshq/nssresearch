@@ -1,0 +1,283 @@
+{
+  "Event": {
+    "uuid": "da59b87e-f3bd-5623-b9ed-4c0f5307781e",
+    "info": "NSS-AX-01: 24 additional ARTEX consoles live on 14 November 2026, and the reseller layer behind them: a companion to the FBI FLASH",
+    "date": "2026-11-17",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": false,
+    "timestamp": "1794873600",
+    "Orgc": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Org": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Tag": [
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "type:OSINT"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "b9913a5a-6593-5c58-a44e-64333cca7cc3",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "xcai.pro",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "The one domain in FBI FLASH-20261113-001: a model API reseller name used with the framework; in NSS's records from 9 Oct 2026; no longer resolving on 14 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ee3d9a29-924f-598a-9542-90de0a6c3716",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "101.53.80.20",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "61ab31bd-0f56-5e20-8f6e-ca6c806ce623",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "103.248.148.84",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a64c2e89-ffa0-555b-88cd-0990232169ed",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "124.155.252.63",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "050a68d9-2ae7-5f04-9c3c-1a613bfd0833",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "144.172.64.128",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 17 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e2c2dc31-eec3-5130-8331-f202903c6312",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "144.172.64.60",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 19 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "02ecaa69-5a94-5d5d-a938-67ff46732adb",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "144.172.64.99",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 19 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e4ad5f75-45b4-509b-b1d0-323b6d0ab531",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "154.201.79.246",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Proxy address named in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ffb9f275-8a99-5410-bc6d-2f5f44899ebd",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "178.16.54.129",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "18b3994c-04c6-50f7-8cbf-a42448fe5cd7",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "199.19.95.66",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "06fb63bc-c2a3-54ac-b13e-a49b5ef0b324",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "199.19.95.67",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a2b0e634-8fda-5720-8c06-6b3eaa0cbb69",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "199.19.95.68",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5da24122-b0db-5534-9494-4dc7c52a24af",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "203.160.133.172",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6afcb0b8-d617-5b80-82b7-5fb1afea0621",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "205.214.59.31",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "af2bfb1a-da36-5515-9322-50140f382442",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "209.209.85.38",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "285b1cd0-a0b3-587d-8ba1-ce80e8fc7061",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "23.158.220.98",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "790fc0a1-9481-56b5-8ef5-cd722f714252",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "23.248.249.90",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7b6d3393-b04d-5262-9000-062f1876e588",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "31.77.229.35",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0e6d72ae-9567-5211-a22d-f2953a15e0d9",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "38.244.50.120",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Console host named in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026, with NSS's own checks from 23 Oct",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6b1eae68-d053-5a5a-a867-3c23d324a922",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "85.11.167.52",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; a listing in NSS's records since June 2026 for unrelated activity; in the framework's context from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1e40f58a-7a16-516c-add8-2c268c8e0b4d",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "85.11.168.45",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "423bdf68-e6a7-5b32-9b85-f1398f49ab43",
+        "type": "ip-dst",
+        "category": "Network activity",
+        "value": "91.92.240.238",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Listed in FBI FLASH-20261113-001; a listing in NSS's records since 2024 for unrelated activity; in the framework's context from 7 Nov 2026",
+        "timestamp": "1794873600",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "20da8221-dcdb-54f4-930a-aaee11b10a6d",
+        "type": "link",
+        "category": "External analysis",
+        "value": "https://nsshq.com/research/artex-consoles-beyond-the-flash",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "NSS-AX-01 on nsshq.com",
+        "timestamp": "1794873600",
+        "disable_correlation": true
+      }
+    ]
+  }
+}

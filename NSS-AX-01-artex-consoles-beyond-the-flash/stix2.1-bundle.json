@@ -1,0 +1,751 @@
+{
+  "type": "bundle",
+  "id": "bundle--9359b8a5-090f-4c39-bc77-6b0697c73473",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+      "created": "2022-10-01T00:00:00.000Z",
+      "name": "TLP:CLEAR",
+      "extensions": {
+        "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+          "extension_type": "property-extension",
+          "tlp_2_0": "clear"
+        }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-10T00:00:00.000Z",
+      "name": "Nexus Sentinel Station (NSS)",
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://nsshq.com | corrections: corrections@nsshq.com",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "report--e73767b8-6312-4f04-ba69-b6f89afb184f",
+      "name": "24 additional ARTEX consoles live on 14 November 2026, and the reseller layer behind them: a companion to the FBI FLASH",
+      "description": "On 13 November 2026 the FBI published FLASH-20261113-001 on ARTEX, a framework public reporting ties to intrusions against finance and managed-service providers, with 24 addresses and one domain, and asked defenders for console and reseller indicators. NSS Research offers this paper in support of that request. All 25 FLASH indicators are corroborated here, each with the date it entered NSS's records. On 14 November NSS confirmed 24 additional ARTEX consoles active, and this edition takes the console fingerprint apart: the page identity and the certificate issuer that name the framework, the two-class structure NSS sees across the set, per-claim confidence, a dated timeline, and detection NSS validated against its own stored readings. It maps the reseller layer behind the FLASH's domain and records one apparent operator tie it tested and rejected. Under NSS's disclosure plan every console address stays held; the counts, the fingerprint and the detection are what ship here.",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2026-11-17T00:00:00Z",
+      "object_refs": [
+        "indicator--e5a0ba8e-ad3e-45b5-9e12-6ad48af18a44",
+        "indicator--bf558f7e-9d0d-4d79-bb67-d748734eb20b",
+        "indicator--f4abc9a4-c5af-4365-a327-e6e991d96c82",
+        "indicator--7a78fca8-bd1d-44a6-85b3-165a66a1c748",
+        "indicator--110cb577-3a5b-4537-b7df-f2188db3f744",
+        "indicator--db650c81-47f0-482d-b8ed-a5cc35659695",
+        "indicator--5ef85754-fd67-4bd4-a92e-dc042799447b",
+        "indicator--dded2a42-afe6-44c8-8acf-924c98ebeb94",
+        "indicator--844a3924-fa00-408e-9d25-86d4d90c7001",
+        "indicator--f48f3879-0561-4e16-8112-7af0ffae7448",
+        "indicator--e306d2b2-22ec-40cc-a4d4-71ba07ba4677",
+        "indicator--5dc8c837-5ef0-4eed-bbb5-bdfd80ec3493",
+        "indicator--8a80c9af-50cf-49bc-b73d-f3fc57645e98",
+        "indicator--a6c1c9d5-3451-43b7-94fe-c24368c36ed4",
+        "indicator--edfee40b-0c6e-48b3-a813-b07e11ca7559",
+        "indicator--77021085-5c76-4cf6-b5d2-0d1f763560f7",
+        "indicator--331d3404-a75f-467d-b77e-c932628f4445",
+        "indicator--fee53bbc-bc80-4369-a66a-5b9ee59a547c",
+        "indicator--28e07357-70bb-4b32-8af4-67ae5d4a3124",
+        "indicator--d47d9cfe-a8bf-48ee-95eb-596cca2af8cc",
+        "indicator--7d9438ba-081c-425c-b0f8-aaed2c5f254d",
+        "indicator--4ebaea07-be8c-41bd-92c0-0a6e50d18ba8"
+      ],
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        },
+        {
+          "source_name": "NSS",
+          "description": "Paper as PDF",
+          "url": "https://nsshq.com/research/files/nss-ax-01.pdf"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e5a0ba8e-ad3e-45b5-9e12-6ad48af18a44",
+      "name": "Domain xcai[.]pro",
+      "description": "The one domain in FBI FLASH-20261113-001: a model API reseller name used with the framework; in NSS's records from 9 Oct 2026; no longer resolving on 14 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'xcai.pro']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bf558f7e-9d0d-4d79-bb67-d748734eb20b",
+      "name": "IP address 101[.]53[.]80[.]20",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '101.53.80.20']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f4abc9a4-c5af-4365-a327-e6e991d96c82",
+      "name": "IP address 103[.]248[.]148[.]84",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '103.248.148.84']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7a78fca8-bd1d-44a6-85b3-165a66a1c748",
+      "name": "IP address 124[.]155[.]252[.]63",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '124.155.252.63']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--110cb577-3a5b-4537-b7df-f2188db3f744",
+      "name": "IP address 144[.]172[.]64[.]128",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 17 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.172.64.128']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--db650c81-47f0-482d-b8ed-a5cc35659695",
+      "name": "IP address 144[.]172[.]64[.]60",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 19 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.172.64.60']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5ef85754-fd67-4bd4-a92e-dc042799447b",
+      "name": "IP address 144[.]172[.]64[.]99",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 19 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.172.64.99']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dded2a42-afe6-44c8-8acf-924c98ebeb94",
+      "name": "IP address 154[.]201[.]79[.]246",
+      "description": "Proxy address named in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '154.201.79.246']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--844a3924-fa00-408e-9d25-86d4d90c7001",
+      "name": "IP address 178[.]16[.]54[.]129",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '178.16.54.129']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f48f3879-0561-4e16-8112-7af0ffae7448",
+      "name": "IP address 199[.]19[.]95[.]66",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '199.19.95.66']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e306d2b2-22ec-40cc-a4d4-71ba07ba4677",
+      "name": "IP address 199[.]19[.]95[.]67",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '199.19.95.67']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5dc8c837-5ef0-4eed-bbb5-bdfd80ec3493",
+      "name": "IP address 199[.]19[.]95[.]68",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '199.19.95.68']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8a80c9af-50cf-49bc-b73d-f3fc57645e98",
+      "name": "IP address 203[.]160[.]133[.]172",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '203.160.133.172']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a6c1c9d5-3451-43b7-94fe-c24368c36ed4",
+      "name": "IP address 205[.]214[.]59[.]31",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '205.214.59.31']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--edfee40b-0c6e-48b3-a813-b07e11ca7559",
+      "name": "IP address 209[.]209[.]85[.]38",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '209.209.85.38']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--77021085-5c76-4cf6-b5d2-0d1f763560f7",
+      "name": "IP address 23[.]158[.]220[.]98",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '23.158.220.98']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--331d3404-a75f-467d-b77e-c932628f4445",
+      "name": "IP address 23[.]248[.]249[.]90",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '23.248.249.90']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fee53bbc-bc80-4369-a66a-5b9ee59a547c",
+      "name": "IP address 31[.]77[.]229[.]35",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '31.77.229.35']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--28e07357-70bb-4b32-8af4-67ae5d4a3124",
+      "name": "IP address 38[.]244[.]50[.]120",
+      "description": "Console host named in FBI FLASH-20261113-001; in NSS's records from 9 Oct 2026, with NSS's own checks from 23 Oct",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '38.244.50.120']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d47d9cfe-a8bf-48ee-95eb-596cca2af8cc",
+      "name": "IP address 85[.]11[.]167[.]52",
+      "description": "Listed in FBI FLASH-20261113-001; a listing in NSS's records since June 2026 for unrelated activity; in the framework's context from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '85.11.167.52']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7d9438ba-081c-425c-b0f8-aaed2c5f254d",
+      "name": "IP address 85[.]11[.]168[.]45",
+      "description": "Listed in FBI FLASH-20261113-001; in NSS's records from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '85.11.168.45']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--4ebaea07-be8c-41bd-92c0-0a6e50d18ba8",
+      "name": "IP address 91[.]92[.]240[.]238",
+      "description": "Listed in FBI FLASH-20261113-001; a listing in NSS's records since 2024 for unrelated activity; in the framework's context from 7 Nov 2026",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '91.92.240.238']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-17T00:00:00Z",
+      "labels": [
+        "NSS-AX-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-AX-01",
+          "url": "https://nsshq.com/research/artex-consoles-beyond-the-flash"
+        }
+      ]
+    }
+  ]
+}
