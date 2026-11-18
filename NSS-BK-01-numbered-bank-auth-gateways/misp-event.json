@@ -1,0 +1,635 @@
+{
+  "Event": {
+    "uuid": "34e1c626-396f-51f4-8d3e-9bf8963fbe4a",
+    "info": "NSS-BK-01: Numbered bank \"auth gateways\": one generator, 18 brands, an empty page for anyone without the link",
+    "date": "2026-11-18",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": false,
+    "timestamp": "1794960000",
+    "Orgc": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Org": {
+      "name": "NSS",
+      "uuid": "94a1c933-d5b7-4441-a595-87b9592880e7"
+    },
+    "Tag": [
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "type:OSINT"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "e61e52cd-52a6-5ecc-a857-25ce7bc67ae7",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "selfverify.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-27 17:37 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "52da51bb-9b86-5008-bc9a-30c825d68a8a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "member-identity-verification6645.xyz",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-27 17:38 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]55, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bd9e7b40-5599-5e0c-8603-a6b4c9576d92",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "onlinemobileverification.support",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-28 07:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9a6228c3-836f-5784-a946-221e065ee85a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "supportmailrecovery1.support",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-28 21:42 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]246, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e3ba682b-2c78-5804-94de-7fc3d810b3c0",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "710-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-10-29 17:14 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "221dbeda-7d0b-582f-9937-d5b3cc587f2e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "55835-access-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-10-29 17:19 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "26f26787-2657-5ea8-9b4f-d492354dec8c",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "72940-access-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-10-30 14:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "041daa8c-07e9-5961-b844-1d1fa78f4a61",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "8228-great-lakes-acceweb-auth.info",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Great Lakes (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-10-30 21:19 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "57feb809-74c9-50e4-bebb-4080717362e6",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "21198-great-lakes-acceweb-auth.info",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Great Lakes (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-10-30 21:35 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]163, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "02b3d990-88e8-577a-aea3-78ec876fbb19",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "38341-access-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-01 22:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d529c175-4e56-57ef-900a-fd9deaa9111e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "44102-access-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-02 21:07 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "44a23a4b-17f2-5c15-86fe-edd434f43d69",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "12145-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-03 17:56 UTC. Resolves, page not captured. On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "19ef6ff6-15cf-54d1-98ab-fb9382a90439",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "581-identityverif.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]identity-verif. Registered 2026-11-03 18:25 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bd5cddb3-f6e0-5f7d-8c8f-a8cfe08dcd74",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "3097authgateway.xyz",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-03 18:37 UTC. Resolves, page not captured. On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "53f03ba9-a185-53f2-ad03-dac28eac69d2",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "7008-grow-acceweb-auth.xyz",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Grow Financial (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-04 00:36 UTC. Redirects from its root to a picture puzzle in front of an e-mail sign-in step (16 Nov 2026). On 18 Nov 2026 it resolves on 168[.]113[.]215[.]244, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "10546200-5d33-54ad-9e49-1d7e2679f27b",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "085-identity-verif.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]identity-verif. Registered 2026-11-04 09:47 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]55, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "78e4849e-82c1-5f70-bbe6-411d57f5e22c",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "87134-orrstown-acceweb-auth.site",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Orrstown Bank (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-05 16:30 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "48ffcef1-f305-58de-ac13-f2d07df059ca",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "42708-fifth-third-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Fifth Third Bank (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-05 21:36 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0b24b597-8eba-5f17-9f71-38e153fb221a",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "14021-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-05 21:47 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ff2da318-341a-5a6e-8bff-411bae9d7c2e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "2210-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-06 02:25 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8130a845-77bb-5887-8ed8-b5c54a5e03ac",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "client-support-verification-7139.support",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-07 13:16 UTC. Does not resolve (16 Nov 2026). On 18 Nov 2026 it no longer resolves; the registry record carries a registrar hold and the name is still registered.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aaf59bce-ca4b-5d92-88c5-09a52b92199f",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "user-verification-agent939.financial",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-07 13:22 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]246, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3897287a-1906-56e0-8af3-f78ee245fc06",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "9353-safe-acceweb-auth.info",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates SAFE (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-08 21:34 UTC. Shows a page titled Loading and nothing else (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]103[.]1[.]244, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "93b42fe1-124d-5c75-8bc0-80418f134ac0",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "24952usbankidentityverif.credit",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates U.S. Bank (read from the name). Shape <number>-[<brand>-]identity-verif. Registered 2026-11-10 05:31 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "04580327-fdb5-59d7-9b58-1cf503865d7d",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "1954-regionsmember-auth.credit",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Regions Bank (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-10 16:13 UTC. Did not answer the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6642373d-c541-5d6b-bcbb-5813571383bc",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "1404-bcb-acceweb-auth.live",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates BCB (bank) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-10 17:08 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "355068d5-f3fa-58c9-80ce-3d5528140210",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "wellsfargo-risk-management.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Wells Fargo (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 18:19 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ff830101-25d7-510f-b07c-1ab08280b8c6",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "nymcuverify.support",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates NYMCU (credit union) (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 18:34 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c45d7de3-a3ee-59d2-9b55-df429bee573b",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "94709-citi-auth-gateway.credit",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Citi (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-10 19:10 UTC. Did not answer the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1980a919-7e9d-5730-84d6-3d09286a4112",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "9401-auth-access.digital",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-10 20:28 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d37d1282-1d59-5499-8838-db98e9b04ff1",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "3992-pncacceweb-authent.net",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates PNC (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-10 21:44 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f6c7eee1-2b54-5b09-82db-42e4893ffc7e",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "9130-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-10 21:49 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "942331ae-da6d-5cdb-8379-eea6856f8529",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "wellsfargosecure.support",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Wells Fargo (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 22:05 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a3239f26-7c61-5a69-b547-d629ff2860fc",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "7714-auth-access.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-11 07:44 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 168[.]113[.]215[.]244, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "80940b3f-9149-52f9-a5aa-4af55f9d5c34",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "loginfreedommobile.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Freedom Mobile (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-11 17:30 UTC. No page answered the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 185[.]112[.]59[.]33, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ec730bb4-892a-5f38-960b-6c2884c23f18",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "secure-online-verif.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-12 16:24 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "46076c94-c6db-58d5-8282-9e2e17f51533",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "19102-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-12 23:02 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "245ebabf-a99d-5ae1-8586-bb2790f72da4",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "19251-vz-auth-access.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Verizon (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-12 23:03 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f003f939-4409-5047-9b80-8d1770bd91bb",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "credential-verification-833.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:02 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9e1057f4-0004-5327-bf05-7ba869c4c26c",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "digital-access-control32245.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:08 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9509b3e9-20e7-5409-86a8-02e7320959d0",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "secure-entry-auth57763.top",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:20 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d8e8ae09-7a48-55a1-8989-06e872417f30",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "11420-auth-gateway-verif.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 21:56 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d697266b-f8cf-55ab-9e2c-27d2b1e7a9db",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "319-fifth-third-identity-verif.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Fifth Third Bank (read from the name). Shape <number>-[<brand>-]identity-verif. Registered 2026-11-14 22:00 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6b36eafb-ee51-5cf9-89f6-eac2f7ee5caa",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "4856-bmo-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates BMO (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 22:02 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "41c958a7-fcb1-5a0b-8db0-f13f7b4364fa",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "46208-capone-auth-gateway.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Capital One (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 22:06 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2850a46b-0041-5fb6-a8db-dbf6655dc6df",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "51954-robins-member-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Robins (credit union) (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-14 22:09 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5938648c-55bf-5c3f-89ce-ff429dc69b0b",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "4581-chime-access-auth.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Chime (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-14 22:11 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0c5f94fd-70c6-5f62-b6d1-229774832287",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "11408-auth-access.icu",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-16 03:32 UTC. No page answered the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ee2bb162-f7a5-5ab5-8a5b-3d7852a157d5",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "bcufraud-prevention.org",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Reads as a credit union's initials joined to its own fraud-prevention line; NSS does not say which institution the initials mean. Shape <initials>fraud-prevention. Registered 2026-11-16 00:06 UTC, at the second registrar. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]154, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:20 UTC).",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e0e41b2c-8921-5032-a0b9-e1bbb7900f42",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "vacufraud-prevention.org",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Reads as a credit union's initials joined to its own fraud-prevention line; NSS does not say which institution the initials mean. Shape <initials>fraud-prevention. Registered 2026-11-16 00:07 UTC, at the second registrar. Not in the set measured to 16 Nov 2026; resolves on 153[.]80[.]249[.]5, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:20 UTC).",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a789af2b-dcd1-51b5-ae53-491aa657a584",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "96408-wells-acceweb-auth.creditcard",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Wells Fargo (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-16 06:37 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 138[.]124[.]79[.]185, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:24 UTC).",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "af87c736-a9d3-5141-b6f2-cb968dc8b7f3",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "loginfreedommobile.digital",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Imitates Freedom Mobile (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-16 16:58 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 185[.]112[.]59[.]33, same name-server pair; no page answered the read (18 Nov 2026); on the same address as loginfreedommobile[.]com.",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5078f3a8-1821-5cdf-b40b-14045431eeff",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "securemobileonlinesupport.com",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-16 21:57 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]183, same name-server pair; no page answered the read (18 Nov 2026).",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "00791a9a-4ea6-575f-918d-67648c2c1671",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "rlwqj6xm06ps4.xyz",
+        "to_ids": true,
+        "distribution": "5",
+        "comment": "No brand and no verification word; tied by the name servers, the server pool, the registrar and the day it was bought. Shape random label. Registered 2026-11-16 23:41 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]154, same name-server pair; page not read (18 Nov 2026).",
+        "timestamp": "1794960000",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f6912249-7727-56f4-b517-508e8d65d8f3",
+        "type": "link",
+        "category": "External analysis",
+        "value": "https://nsshq.com/research/numbered-bank-auth-gateways",
+        "to_ids": false,
+        "distribution": "5",
+        "comment": "NSS-BK-01 on nsshq.com",
+        "timestamp": "1794960000",
+        "disable_correlation": true
+      }
+    ]
+  }
+}

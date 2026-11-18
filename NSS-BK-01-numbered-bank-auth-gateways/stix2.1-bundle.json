@@ -1,0 +1,1743 @@
+{
+  "type": "bundle",
+  "id": "bundle--e01020fe-8c65-4427-a61b-c25441c92ea1",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+      "created": "2022-10-01T00:00:00.000Z",
+      "name": "TLP:CLEAR",
+      "extensions": {
+        "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+          "extension_type": "property-extension",
+          "tlp_2_0": "clear"
+        }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-10T00:00:00.000Z",
+      "modified": "2026-11-10T00:00:00.000Z",
+      "name": "Nexus Sentinel Station (NSS)",
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://nsshq.com | corrections: corrections@nsshq.com",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "report--d3192d5c-b35a-43bb-84dc-8612143d6649",
+      "name": "Numbered bank \"auth gateways\": one generator, 18 brands, an empty page for anyone without the link",
+      "description": "Between 27 October and 16 November 2026 one generator bought 48 names such as 42708-fifth-third-auth-gateway[.]icu, 46208-capone-auth-gateway[.]icu and 94709-citi-auth-gateway[.]credit: a number, a bank or carrier and a word like \"auth gateway\" or \"identity verif\", on cheap domain endings. Every one of them uses the same DNS service, and on 16 November 47 resolved to a pool of 13 small rented servers where names of different banks share the same address. 15 of the 21 names NSS tried answered with an empty page at the root, consistent with content served only on the message link; one led to a picture puzzle. On 16 November none of the 48 was on a threat list NSS takes in. Read again two days later, 44 of the 48 still answered on the same 13 servers, three had gone to a registry hold, still none was on a list, and the generator had bought six more names, two of them in a shape that reads as a credit union's own fraud-prevention line.",
+      "report_types": [
+        "threat-report"
+      ],
+      "published": "2026-11-18T00:00:00Z",
+      "object_refs": [
+        "indicator--3a215ad1-f8e5-4a59-a50e-cdd34147721f",
+        "indicator--2660fe9d-fa20-4d6d-ba0d-95e12c83b5c0",
+        "indicator--a3d2d629-42a7-44d4-b243-3eb1d519ba84",
+        "indicator--0be5da39-4eff-44be-b7f7-44fb5e1a598a",
+        "indicator--6340013d-a967-405c-bbbb-7b792866a5ab",
+        "indicator--33f4ba73-b400-40ce-a21c-08785fd471cf",
+        "indicator--b43bad82-9938-4218-9236-b3f972cb3a9a",
+        "indicator--b8e40219-dbe4-4a2c-878f-946d9399eedf",
+        "indicator--c6b85544-2593-4445-874d-839ace3ab666",
+        "indicator--a0b22b9a-063c-4b00-be52-1d7ffda52795",
+        "indicator--36271e7e-9ee5-49d8-8fc0-0c25e4a5f6b1",
+        "indicator--5cdee23a-b31b-4dfb-ad14-0049268a02d7",
+        "indicator--5c6c506d-6c42-439b-9e7a-3d5876fdf70c",
+        "indicator--cb517ee0-62ed-4315-9a85-d45a32cb5420",
+        "indicator--47fff0cc-772f-4f6e-bced-9d190c42887d",
+        "indicator--9c21052b-b9eb-46e6-8b5d-b6f596088032",
+        "indicator--78d56bfe-da47-4b5c-be8e-71cad76a99d5",
+        "indicator--ec329ca1-ef71-4fd4-846c-95d40eba251b",
+        "indicator--92cfbf9d-ebe1-4745-b736-4d1daf1ea664",
+        "indicator--492775a7-4a8f-4402-b342-99bbbd33a243",
+        "indicator--8a882881-6f63-459c-848d-c8b071932c2a",
+        "indicator--198f176d-13df-4f91-a253-f1af822a1e7d",
+        "indicator--6b89f2a6-6a0a-4924-a667-9e679431613b",
+        "indicator--7a32fdd4-12a9-436b-8743-92ea35ecac02",
+        "indicator--c7f84742-c6b5-455d-9250-3d5335dc5372",
+        "indicator--c99bb6ce-3ac7-430e-a169-bd633ec399bb",
+        "indicator--0bdc26e7-79ab-4d34-a4ba-c5b14730109f",
+        "indicator--f2091f38-8fce-4077-8516-bee04d460393",
+        "indicator--e8bc0511-2c48-4abc-aa91-eb068f9b6828",
+        "indicator--f6261ba2-911f-42cd-882e-0ef8e5627e8b",
+        "indicator--ddef6064-6a1f-49e8-b29f-cba919a29d01",
+        "indicator--f4407b50-e820-42af-acf3-be12931ac2b3",
+        "indicator--74396f22-08b7-443a-9e79-29aa03d3363a",
+        "indicator--457d9235-c141-43a3-83ca-a077e286f66d",
+        "indicator--685bd7be-38a0-41a8-ab1b-54ee0127cd20",
+        "indicator--79647d6f-dddc-49b3-8b9d-f57d1e77ea81",
+        "indicator--db99b422-a304-4bde-be37-0103ba7cf84f",
+        "indicator--c351283c-21dc-49c4-8dc8-30d5f05ff022",
+        "indicator--d20ff4e1-511d-45c8-a4d3-2415ef4c5976",
+        "indicator--ca70f4bc-aa78-45df-971c-fc71b745698b",
+        "indicator--5e1b5560-b80e-45fd-87d1-6ebfd61e47f5",
+        "indicator--54de21b4-9a69-47dc-b1b3-d8fc4c527519",
+        "indicator--75d696c4-58db-4fb1-827b-054295643fe4",
+        "indicator--9759a405-fdbb-4ed5-bd15-2127ad6c2e24",
+        "indicator--fdd3313a-d0e6-4b9d-aab9-0294a4b54207",
+        "indicator--fac25071-e0b0-45c9-bcac-654a0a43a864",
+        "indicator--e0ab99d6-24d6-405e-a673-c9b46fb90bfa",
+        "indicator--2f7f1256-cb8a-4290-aefe-19768bb6f86c",
+        "indicator--dc746b18-25d2-423a-875e-9f31cf211068",
+        "indicator--627c00bc-affa-4f55-8315-86756d5bb800",
+        "indicator--a6891c6c-592c-4371-adee-386c928b0a54",
+        "indicator--ac4bac55-9c3e-40c6-bdc4-574631ae31ed",
+        "indicator--eb73d843-39a2-4165-ab0c-dd958c04625f",
+        "indicator--8232287b-9c57-4a11-81e7-19b1be663b63"
+      ],
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        },
+        {
+          "source_name": "NSS",
+          "description": "Paper as PDF",
+          "url": "https://nsshq.com/research/files/nss-bk-01.pdf"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3a215ad1-f8e5-4a59-a50e-cdd34147721f",
+      "name": "Domain selfverify[.]top",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-27 17:37 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'selfverify.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2660fe9d-fa20-4d6d-ba0d-95e12c83b5c0",
+      "name": "Domain member-identity-verification6645[.]xyz",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-27 17:38 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]55, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'member-identity-verification6645.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a3d2d629-42a7-44d4-b243-3eb1d519ba84",
+      "name": "Domain onlinemobileverification[.]support",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-28 07:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'onlinemobileverification.support']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0be5da39-4eff-44be-b7f7-44fb5e1a598a",
+      "name": "Domain supportmailrecovery1[.]support",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-10-28 21:42 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]246, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'supportmailrecovery1.support']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--6340013d-a967-405c-bbbb-7b792866a5ab",
+      "name": "Domain 710-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-10-29 17:14 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '710-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--33f4ba73-b400-40ce-a21c-08785fd471cf",
+      "name": "Domain 55835-access-auth[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-10-29 17:19 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '55835-access-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b43bad82-9938-4218-9236-b3f972cb3a9a",
+      "name": "Domain 72940-access-auth[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-10-30 14:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '72940-access-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b8e40219-dbe4-4a2c-878f-946d9399eedf",
+      "name": "Domain 8228-great-lakes-acceweb-auth[.]info",
+      "description": "Imitates Great Lakes (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-10-30 21:19 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '8228-great-lakes-acceweb-auth.info']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c6b85544-2593-4445-874d-839ace3ab666",
+      "name": "Domain 21198-great-lakes-acceweb-auth[.]info",
+      "description": "Imitates Great Lakes (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-10-30 21:35 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]163, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '21198-great-lakes-acceweb-auth.info']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a0b22b9a-063c-4b00-be52-1d7ffda52795",
+      "name": "Domain 38341-access-auth[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-01 22:15 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '38341-access-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--36271e7e-9ee5-49d8-8fc0-0c25e4a5f6b1",
+      "name": "Domain 44102-access-auth[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-02 21:07 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '44102-access-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5cdee23a-b31b-4dfb-ad14-0049268a02d7",
+      "name": "Domain 12145-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-03 17:56 UTC. Resolves, page not captured. On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '12145-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5c6c506d-6c42-439b-9e7a-3d5876fdf70c",
+      "name": "Domain 581-identityverif[.]top",
+      "description": "Generic verification name. Shape <number>-[<brand>-]identity-verif. Registered 2026-11-03 18:25 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '581-identityverif.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--cb517ee0-62ed-4315-9a85-d45a32cb5420",
+      "name": "Domain 3097authgateway[.]xyz",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-03 18:37 UTC. Resolves, page not captured. On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '3097authgateway.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--47fff0cc-772f-4f6e-bced-9d190c42887d",
+      "name": "Domain 7008-grow-acceweb-auth[.]xyz",
+      "description": "Imitates Grow Financial (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-04 00:36 UTC. Redirects from its root to a picture puzzle in front of an e-mail sign-in step (16 Nov 2026). On 18 Nov 2026 it resolves on 168[.]113[.]215[.]244, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '7008-grow-acceweb-auth.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9c21052b-b9eb-46e6-8b5d-b6f596088032",
+      "name": "Domain 085-identity-verif[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]identity-verif. Registered 2026-11-04 09:47 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]55, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '085-identity-verif.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--78d56bfe-da47-4b5c-be8e-71cad76a99d5",
+      "name": "Domain 87134-orrstown-acceweb-auth[.]site",
+      "description": "Imitates Orrstown Bank (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-05 16:30 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '87134-orrstown-acceweb-auth.site']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ec329ca1-ef71-4fd4-846c-95d40eba251b",
+      "name": "Domain 42708-fifth-third-auth-gateway[.]icu",
+      "description": "Imitates Fifth Third Bank (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-05 21:36 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '42708-fifth-third-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--92cfbf9d-ebe1-4745-b736-4d1daf1ea664",
+      "name": "Domain 14021-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-05 21:47 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '14021-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--492775a7-4a8f-4402-b342-99bbbd33a243",
+      "name": "Domain 2210-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-06 02:25 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '2210-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8a882881-6f63-459c-848d-c8b071932c2a",
+      "name": "Domain client-support-verification-7139[.]support",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-07 13:16 UTC. Does not resolve (16 Nov 2026). On 18 Nov 2026 it no longer resolves; the registry record carries a registrar hold and the name is still registered.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'client-support-verification-7139.support']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--198f176d-13df-4f91-a253-f1af822a1e7d",
+      "name": "Domain user-verification-agent939[.]financial",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-07 13:22 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]246, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'user-verification-agent939.financial']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--6b89f2a6-6a0a-4924-a667-9e679431613b",
+      "name": "Domain 9353-safe-acceweb-auth[.]info",
+      "description": "Imitates SAFE (credit union) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-08 21:34 UTC. Shows a page titled Loading and nothing else (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]103[.]1[.]244, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '9353-safe-acceweb-auth.info']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--7a32fdd4-12a9-436b-8743-92ea35ecac02",
+      "name": "Domain 24952usbankidentityverif[.]credit",
+      "description": "Imitates U.S. Bank (read from the name). Shape <number>-[<brand>-]identity-verif. Registered 2026-11-10 05:31 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '24952usbankidentityverif.credit']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c7f84742-c6b5-455d-9250-3d5335dc5372",
+      "name": "Domain 1954-regionsmember-auth[.]credit",
+      "description": "Imitates Regions Bank (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-10 16:13 UTC. Did not answer the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '1954-regionsmember-auth.credit']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c99bb6ce-3ac7-430e-a169-bd633ec399bb",
+      "name": "Domain 1404-bcb-acceweb-auth[.]live",
+      "description": "Imitates BCB (bank) (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-10 17:08 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '1404-bcb-acceweb-auth.live']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0bdc26e7-79ab-4d34-a4ba-c5b14730109f",
+      "name": "Domain wellsfargo-risk-management[.]com",
+      "description": "Imitates Wells Fargo (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 18:19 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wellsfargo-risk-management.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f2091f38-8fce-4077-8516-bee04d460393",
+      "name": "Domain nymcuverify[.]support",
+      "description": "Imitates NYMCU (credit union) (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 18:34 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'nymcuverify.support']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e8bc0511-2c48-4abc-aa91-eb068f9b6828",
+      "name": "Domain 94709-citi-auth-gateway[.]credit",
+      "description": "Imitates Citi (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-10 19:10 UTC. Did not answer the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '94709-citi-auth-gateway.credit']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f6261ba2-911f-42cd-882e-0ef8e5627e8b",
+      "name": "Domain 9401-auth-access[.]digital",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-10 20:28 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '9401-auth-access.digital']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ddef6064-6a1f-49e8-b29f-cba919a29d01",
+      "name": "Domain 3992-pncacceweb-authent[.]net",
+      "description": "Imitates PNC (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-10 21:44 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '3992-pncacceweb-authent.net']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f4407b50-e820-42af-acf3-be12931ac2b3",
+      "name": "Domain 9130-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-10 21:49 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '9130-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--74396f22-08b7-443a-9e79-29aa03d3363a",
+      "name": "Domain wellsfargosecure[.]support",
+      "description": "Imitates Wells Fargo (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-10 22:05 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wellsfargosecure.support']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--457d9235-c141-43a3-83ca-a077e286f66d",
+      "name": "Domain 7714-auth-access[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-11 07:44 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 168[.]113[.]215[.]244, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '7714-auth-access.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--685bd7be-38a0-41a8-ab1b-54ee0127cd20",
+      "name": "Domain loginfreedommobile[.]com",
+      "description": "Imitates Freedom Mobile (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-11 17:30 UTC. No page answered the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 185[.]112[.]59[.]33, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'loginfreedommobile.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--79647d6f-dddc-49b3-8b9d-f57d1e77ea81",
+      "name": "Domain secure-online-verif[.]com",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-12 16:24 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'secure-online-verif.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--db99b422-a304-4bde-be37-0103ba7cf84f",
+      "name": "Domain 19102-auth-gateway[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-12 23:02 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '19102-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c351283c-21dc-49c4-8dc8-30d5f05ff022",
+      "name": "Domain 19251-vz-auth-access[.]icu",
+      "description": "Imitates Verizon (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-12 23:03 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '19251-vz-auth-access.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d20ff4e1-511d-45c8-a4d3-2415ef4c5976",
+      "name": "Domain credential-verification-833[.]top",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:02 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 147[.]45[.]61[.]183, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'credential-verification-833.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ca70f4bc-aa78-45df-971c-fc71b745698b",
+      "name": "Domain digital-access-control32245[.]top",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:08 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 176[.]65[.]132[.]54, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'digital-access-control32245.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5e1b5560-b80e-45fd-87d1-6ebfd61e47f5",
+      "name": "Domain secure-entry-auth57763[.]top",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-14 03:20 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 94[.]26[.]106[.]184, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'secure-entry-auth57763.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--54de21b4-9a69-47dc-b1b3-d8fc4c527519",
+      "name": "Domain 11420-auth-gateway-verif[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 21:56 UTC. Resolves, page not captured. On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '11420-auth-gateway-verif.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--75d696c4-58db-4fb1-827b-054295643fe4",
+      "name": "Domain 319-fifth-third-identity-verif[.]icu",
+      "description": "Imitates Fifth Third Bank (read from the name). Shape <number>-[<brand>-]identity-verif. Registered 2026-11-14 22:00 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it no longer resolves; the registry record carries a registry-level hold and the name is still registered.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '319-fifth-third-identity-verif.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9759a405-fdbb-4ed5-bd15-2127ad6c2e24",
+      "name": "Domain 4856-bmo-auth-gateway[.]icu",
+      "description": "Imitates BMO (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 22:02 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 147[.]45[.]61[.]154, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '4856-bmo-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fdd3313a-d0e6-4b9d-aab9-0294a4b54207",
+      "name": "Domain 46208-capone-auth-gateway[.]icu",
+      "description": "Imitates Capital One (read from the name). Shape <number>-[<brand>-]auth-gateway. Registered 2026-11-14 22:06 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]5, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '46208-capone-auth-gateway.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fac25071-e0b0-45c9-bcac-654a0a43a864",
+      "name": "Domain 51954-robins-member-auth[.]icu",
+      "description": "Imitates Robins (credit union) (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-14 22:09 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '51954-robins-member-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e0ab99d6-24d6-405e-a673-c9b46fb90bfa",
+      "name": "Domain 4581-chime-access-auth[.]icu",
+      "description": "Imitates Chime (read from the name). Shape <number>-[<brand>-]access-auth. Registered 2026-11-14 22:11 UTC. Answers with an empty page at the root (16 Nov 2026). On 18 Nov 2026 it resolves on 138[.]124[.]79[.]185, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '4581-chime-access-auth.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2f7f1256-cb8a-4290-aefe-19768bb6f86c",
+      "name": "Domain 11408-auth-access[.]icu",
+      "description": "Generic verification name. Shape <number>-[<brand>-]access-auth. Registered 2026-11-16 03:32 UTC. No page answered the capture (16 Nov 2026). On 18 Nov 2026 it resolves on 153[.]80[.]249[.]234, same name-server pair.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '11408-auth-access.icu']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dc746b18-25d2-423a-875e-9f31cf211068",
+      "name": "Domain bcufraud-prevention[.]org",
+      "description": "Reads as a credit union's initials joined to its own fraud-prevention line; NSS does not say which institution the initials mean. Shape <initials>fraud-prevention. Registered 2026-11-16 00:06 UTC, at the second registrar. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]154, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:20 UTC).",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'bcufraud-prevention.org']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--627c00bc-affa-4f55-8315-86756d5bb800",
+      "name": "Domain vacufraud-prevention[.]org",
+      "description": "Reads as a credit union's initials joined to its own fraud-prevention line; NSS does not say which institution the initials mean. Shape <initials>fraud-prevention. Registered 2026-11-16 00:07 UTC, at the second registrar. Not in the set measured to 16 Nov 2026; resolves on 153[.]80[.]249[.]5, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:20 UTC).",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'vacufraud-prevention.org']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a6891c6c-592c-4371-adee-386c928b0a54",
+      "name": "Domain 96408-wells-acceweb-auth[.]creditcard",
+      "description": "Imitates Wells Fargo (read from the name). Shape <number>-<brand>-acceweb-auth. Registered 2026-11-16 06:37 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 138[.]124[.]79[.]185, same name-server pair; answers with an empty page at the root (18 Nov 2026, 00:24 UTC).",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = '96408-wells-acceweb-auth.creditcard']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ac4bac55-9c3e-40c6-bdc4-574631ae31ed",
+      "name": "Domain loginfreedommobile[.]digital",
+      "description": "Imitates Freedom Mobile (read from the name). Shape verification or bank word, number at the end or none. Registered 2026-11-16 16:58 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 185[.]112[.]59[.]33, same name-server pair; no page answered the read (18 Nov 2026); on the same address as loginfreedommobile[.]com.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'loginfreedommobile.digital']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--eb73d843-39a2-4165-ab0c-dd958c04625f",
+      "name": "Domain securemobileonlinesupport[.]com",
+      "description": "Generic verification name. Shape verification or bank word, number at the end or none. Registered 2026-11-16 21:57 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]183, same name-server pair; no page answered the read (18 Nov 2026).",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'securemobileonlinesupport.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--8232287b-9c57-4a11-81e7-19b1be663b63",
+      "name": "Domain rlwqj6xm06ps4[.]xyz",
+      "description": "No brand and no verification word; tied by the name servers, the server pool, the registrar and the day it was bought. Shape random label. Registered 2026-11-16 23:41 UTC, at the same registrar as the rest of the set. Not in the set measured to 16 Nov 2026; resolves on 147[.]45[.]61[.]154, same name-server pair; page not read (18 Nov 2026).",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'rlwqj6xm06ps4.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-BK-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-BK-01",
+          "url": "https://nsshq.com/research/numbered-bank-auth-gateways"
+        }
+      ]
+    }
+  ]
+}

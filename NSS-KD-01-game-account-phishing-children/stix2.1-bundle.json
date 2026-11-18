@@ -36,13 +36,13 @@
       "spec_version": "2.1",
       "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
       "created": "2026-11-16T00:00:00.000Z",
-      "modified": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
       "object_marking_refs": [
         "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
       ],
       "id": "report--95b22a93-fa8a-4d8f-b211-54c9e8e7f035",
       "name": "Phishing aimed at children and their families: 188 look-alike names in six sets",
-      "description": "Between 27 October and 16 November 2026 NSS recorded 188 new web names built to take children's and teenagers' game accounts, and through those accounts their families' money, devices and social accounts. The largest single piece is one server that answered for 40 names written for Russian speakers: Roblox sign-in and \"Robux\" names, a Brawl Stars gem store, Roblox script sites, look-alikes of the VK social network, a voting lure and a shopping look-alike, most of them each on a DNS account of its own. Beside it sit a Fortnite \"locker worth\" checker server whose newest 39 names were almost all unlisted, Roblox link names bought in four bursts, staged Mobile Legends \"support\" names and Minecraft \"creator\" invitations. On 16 November 161 of the 188 were on no threat list NSS takes in. This paper gives every name, takes apart the anti-bot gate that keeps the Fortnite checker off blocklists, and sets out what parents, schools and platform teams can do.",
+      "description": "Between 27 October and 16 November 2026 NSS recorded 188 new web names built to take children's and teenagers' game accounts, and through those accounts their families' money, devices and social accounts. The largest single piece is one server that answered for 40 names written for Russian speakers: Roblox sign-in and \"Robux\" names, a Brawl Stars gem store, Roblox script sites, look-alikes of the VK social network, a voting lure and a shopping look-alike, most of them each on a DNS account of its own. Beside it sit a Fortnite \"locker worth\" checker server whose newest 39 names were almost all unlisted, Roblox link names bought in four bursts, staged Mobile Legends \"support\" names and Minecraft \"creator\" invitations. On 16 November 161 of the 188 were on no threat list NSS takes in. This paper gives every name, takes apart the anti-bot gate that keeps the Fortnite checker off blocklists, and sets out what parents, schools and platform teams can do. Updated 18 November 2026: a check of every name the Roblox link pattern allows found 71 more, registered at the same registrar as the first 14 between 2 September and 15 November, so that set is 85 names, not 14.",
       "report_types": [
         "threat-report"
       ],
@@ -239,7 +239,79 @@
         "indicator--738fa14a-b6f9-4ef6-8e6d-ad80831639c2",
         "indicator--46ae68a4-31ae-464f-94c4-a2b4584b0245",
         "indicator--512d6177-92ae-4f86-a797-0d75d5de52b1",
-        "indicator--bed23479-75cf-4ff3-ad04-6d3078cbd946"
+        "indicator--bed23479-75cf-4ff3-ad04-6d3078cbd946",
+        "indicator--e32bb8cd-cc39-49fc-a1df-53c244aefa90",
+        "indicator--9d6b1701-ec02-4106-903d-95ed2d117561",
+        "indicator--5c1e78bd-6809-48f2-8439-b8f0bb9ce9ec",
+        "indicator--df28f61c-b7d2-4998-b878-d9cbed6399bd",
+        "indicator--757c903d-547d-4782-bc90-09442c8a9c2a",
+        "indicator--1118c187-1b8b-410f-9028-b6909f8b094b",
+        "indicator--86528c53-70df-4d27-b1a8-3d92f60d270c",
+        "indicator--bde2b435-a706-438d-8c01-d5278791d66f",
+        "indicator--0785f021-8563-449f-ac6d-c2d9eed76339",
+        "indicator--fc22bcb8-5b0a-41d1-a0c8-c45a1bdee3da",
+        "indicator--15143cec-aa29-4d81-ac5a-8abb8b1e4307",
+        "indicator--54cf4366-34b5-4270-b660-a20936342ece",
+        "indicator--0fd75c60-c39e-4d9b-975c-02020cd2478f",
+        "indicator--1e71f68e-71f0-4dc2-b97f-a73cddcafefd",
+        "indicator--029c1c3f-11bc-48b6-b6a8-60742044df1c",
+        "indicator--902abd8a-31ac-4be7-925d-d0fa6744be8a",
+        "indicator--a7e5b8c0-e9c3-4488-82b9-bda107a49324",
+        "indicator--420fb727-3dd9-4063-8e2f-ada6ad3f06ba",
+        "indicator--467692f8-7b9a-4081-9a95-b717bb5ebcee",
+        "indicator--0044bd00-bc18-45c1-b61e-4027a258aa4a",
+        "indicator--2c704408-685f-43b6-877d-5bba339111a2",
+        "indicator--70687c64-2570-43e7-ab82-6418cbab6cd6",
+        "indicator--b3a1a16b-0b5d-4fc4-ad99-bb9f6d35fb19",
+        "indicator--28255e8f-1dbb-4a2f-8397-ac0ecdfecb83",
+        "indicator--1e170b9a-46a2-45a2-8c87-99ba8972fc11",
+        "indicator--06f5cf43-3280-4257-bfc4-045e257b124a",
+        "indicator--b956840a-e046-49fc-9b94-2d16e985b5e2",
+        "indicator--67ce5a9c-6f91-4796-8952-3256ef1f870b",
+        "indicator--dd79c95b-3987-42c4-a5a2-640052d70681",
+        "indicator--0ca382db-56aa-41c9-aed5-dbf92d8ea7a4",
+        "indicator--01188234-1892-4feb-a989-c438a76a1cde",
+        "indicator--f80db58e-ce4c-4a66-a896-b0562d0157e6",
+        "indicator--18854272-732e-4b36-b329-c25055f54128",
+        "indicator--e8139e13-ea24-4ea4-be07-33d4aa4f74db",
+        "indicator--c40be83e-0bbd-407c-999d-1a1f0fc6fee3",
+        "indicator--49e4e33f-7256-4a0f-9207-49fa1629d5b4",
+        "indicator--2df782b0-7f15-404c-a737-93412e345a29",
+        "indicator--eb23458b-0535-495a-84c1-47b37c193108",
+        "indicator--0c6b18da-4be5-4283-94d7-49ebff408249",
+        "indicator--2477499b-ba7a-4aee-b40d-ef263872b868",
+        "indicator--e68bcf33-bae7-4eaa-9551-0d09265cc875",
+        "indicator--04cfde52-2440-44b2-8f5f-40c3aa06d998",
+        "indicator--092629b3-f0d6-4809-b3e9-99cc79054c12",
+        "indicator--c0bb69a7-3a33-4d89-a42d-407c56ad2dc0",
+        "indicator--b7c4c5c2-0da2-4f1e-aaf1-f8059004745c",
+        "indicator--c034db3c-ae4d-44cc-8db3-6c01645fbe1f",
+        "indicator--b5c9c87d-e683-4ab8-8957-f4a94d8d92c8",
+        "indicator--d33b0609-f5c8-4aed-a224-8fe7cc4035f6",
+        "indicator--d0d82b96-3670-4d0a-ba45-098feb61da58",
+        "indicator--439d3ad7-ed47-49f4-a765-6d190e94a3ed",
+        "indicator--aba74c73-240a-4d8f-9f57-71db451587eb",
+        "indicator--65ded847-0f0e-441b-ad34-b39379cb985f",
+        "indicator--c8e48066-fb38-49d4-a1ed-4ea98b4ccfb0",
+        "indicator--9fa2fb65-cd3e-4f26-ae24-3a08bccb12ee",
+        "indicator--3b9a7419-bcf5-4eea-b488-494b1d6d525d",
+        "indicator--d339030a-32f2-4e62-896e-56ad95aacb4e",
+        "indicator--de12800d-19f6-4b2f-966d-df401d119322",
+        "indicator--16992d70-cf75-4b12-898c-02fc3b5fed76",
+        "indicator--51943082-6cf3-4a7a-ac3c-2d1c008acb48",
+        "indicator--15613534-c266-4762-a295-a6d1947cc56a",
+        "indicator--13237c18-c444-4748-b04d-6dddc72a34ac",
+        "indicator--e3cee14e-6f0c-4e3a-8b50-f40629b8c7d8",
+        "indicator--ed9f0f5a-9cbb-4a82-8416-d73f1f31f03e",
+        "indicator--de2a4dcb-e664-4dac-8c2c-effe6720c80e",
+        "indicator--a27d680d-7016-41a9-a850-5b35f27265c7",
+        "indicator--2fa93214-24c4-4149-95e2-d94885a82585",
+        "indicator--bc25048b-216b-430c-9fdf-937827a48248",
+        "indicator--b5eff49e-b966-4bde-bc27-bec42d6f7c7e",
+        "indicator--df568524-6c7c-4c2a-8696-d417f732d71c",
+        "indicator--9a294249-5b44-434f-b7e9-dee2c09173d4",
+        "indicator--5b340bda-4c73-4627-a416-8d376ab0a97b",
+        "indicator--1f8dcfef-c5d0-4922-9685-3fad6b48c40c"
       ],
       "labels": [
         "NSS-KD-01"
@@ -6006,6 +6078,2166 @@
       "pattern_type": "stix",
       "pattern_version": "2.1",
       "valid_from": "2026-11-16T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e32bb8cd-cc39-49fc-a1df-53c244aefa90",
+      "name": "Domain roblox-en[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-02 22:16 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-en.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9d6b1701-ec02-4106-903d-95ed2d117561",
+      "name": "Domain roblox-us[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-04 05:24 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-us.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5c1e78bd-6809-48f2-8439-b8f0bb9ce9ec",
+      "name": "Domain roblox-ru[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-05 15:02 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on a threat list NSS takes in, list date 19 Sep 2026; NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ru.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--df28f61c-b7d2-4998-b878-d9cbed6399bd",
+      "name": "Domain uk-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-05 15:03 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'uk-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--757c903d-547d-4782-bc90-09442c8a9c2a",
+      "name": "Domain eu-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-06 03:05 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'eu-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1118c187-1b8b-410f-9028-b6909f8b094b",
+      "name": "Domain roblox-eu[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-06 03:06 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-eu.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--86528c53-70df-4d27-b1a8-3d92f60d270c",
+      "name": "Domain roblox-de[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-07 18:12 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-de.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bde2b435-a706-438d-8c01-d5278791d66f",
+      "name": "Domain roblox-es[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-07 22:50 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-es.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0785f021-8563-449f-ac6d-c2d9eed76339",
+      "name": "Domain roblox-ca[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-08 04:42 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ca.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--fc22bcb8-5b0a-41d1-a0c8-c45a1bdee3da",
+      "name": "Domain roblox-fr[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-08 21:10 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-fr.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--15143cec-aa29-4d81-ac5a-8abb8b1e4307",
+      "name": "Domain roblox-na[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-08 21:11 UTC at the R1 registrar; 18 Nov 2026: delegated, DNS does not answer; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-na.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--54cf4366-34b5-4270-b660-a20936342ece",
+      "name": "Domain roblox-se[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-10 19:57 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-se.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0fd75c60-c39e-4d9b-975c-02020cd2478f",
+      "name": "Domain roblox-co[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-10 23:18 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-co.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1e71f68e-71f0-4dc2-b97f-a73cddcafefd",
+      "name": "Domain roblox-gb[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-10 23:19 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-gb.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--029c1c3f-11bc-48b6-b6a8-60742044df1c",
+      "name": "Domain roblox-am[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-11 06:25 UTC at the R1 registrar; 18 Nov 2026: held: verification-hold name servers, answers a loopback address; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-am.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--902abd8a-31ac-4be7-925d-d0fa6744be8a",
+      "name": "Domain roblox-in[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-11 06:26 UTC at the R1 registrar; 18 Nov 2026: held: verification-hold name servers, answers a loopback address; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-in.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a7e5b8c0-e9c3-4488-82b9-bda107a49324",
+      "name": "Domain roblox-nl[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-11 06:26 UTC at the R1 registrar; 18 Nov 2026: held: verification-hold name servers, answers a loopback address; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-nl.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--420fb727-3dd9-4063-8e2f-ada6ad3f06ba",
+      "name": "Domain roblox-ac[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-12 22:38 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ac.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--467692f8-7b9a-4081-9a95-b717bb5ebcee",
+      "name": "Domain roblox-my[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-12 22:38 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-my.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0044bd00-bc18-45c1-b61e-4027a258aa4a",
+      "name": "Domain roblox-nz[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-12 22:39 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-nz.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2c704408-685f-43b6-877d-5bba339111a2",
+      "name": "Domain my-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-13 18:56 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'my-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--70687c64-2570-43e7-ab82-6418cbab6cd6",
+      "name": "Domain ru-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-09-13 18:57 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ru-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b3a1a16b-0b5d-4fc4-ad99-bb9f6d35fb19",
+      "name": "Domain au-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-05 22:48 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'au-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--28255e8f-1dbb-4a2f-8397-ac0ecdfecb83",
+      "name": "Domain ac-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-11 18:21 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ac-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1e170b9a-46a2-45a2-8c87-99ba8972fc11",
+      "name": "Domain un-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-11 18:21 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'un-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--06f5cf43-3280-4257-bfc4-045e257b124a",
+      "name": "Domain am-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-13 00:00 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'am-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b956840a-e046-49fc-9b94-2d16e985b5e2",
+      "name": "Domain roblox-un[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-13 00:01 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-un.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--67ce5a9c-6f91-4796-8952-3256ef1f870b",
+      "name": "Domain ea-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-13 22:24 UTC at the R1 registrar; 18 Nov 2026: registered, no address; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ea-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--dd79c95b-3987-42c4-a5a2-640052d70681",
+      "name": "Domain roblox-an[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-13 22:25 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-an.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0ca382db-56aa-41c9-aed5-dbf92d8ea7a4",
+      "name": "Domain ar-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-15 03:08 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ar-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--01188234-1892-4feb-a989-c438a76a1cde",
+      "name": "Domain ev-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-15 03:09 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ev-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--f80db58e-ce4c-4a66-a896-b0562d0157e6",
+      "name": "Domain on-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-15 03:10 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'on-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--18854272-732e-4b36-b329-c25055f54128",
+      "name": "Domain roblox-cu[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-16 05:52 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-cu.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e8139e13-ea24-4ea4-be07-33d4aa4f74db",
+      "name": "Domain roblox-on[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-16 05:52 UTC at the R1 registrar; 18 Nov 2026: registered, no address; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-on.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c40be83e-0bbd-407c-999d-1a1f0fc6fee3",
+      "name": "Domain as-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-17 08:50 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'as-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--49e4e33f-7256-4a0f-9207-49fa1629d5b4",
+      "name": "Domain roblox-as[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-17 08:51 UTC at the R1 registrar; 18 Nov 2026: 62[.]210[.]130[.]210; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-as.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2df782b0-7f15-404c-a737-93412e345a29",
+      "name": "Domain an-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-17 11:05 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'an-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--eb23458b-0535-495a-84c1-47b37c193108",
+      "name": "Domain ca-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-19 06:37 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ca-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--0c6b18da-4be5-4283-94d7-49ebff408249",
+      "name": "Domain roblox-ai[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-19 06:38 UTC at the R1 registrar; 18 Nov 2026: 62[.]210[.]130[.]210; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ai.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2477499b-ba7a-4aee-b40d-ef263872b868",
+      "name": "Domain roblox-er[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-19 06:38 UTC at the R1 registrar; 18 Nov 2026: held: registry status hold; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-er.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e68bcf33-bae7-4eaa-9551-0d09265cc875",
+      "name": "Domain roblox-me[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-20 23:12 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-me.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--04cfde52-2440-44b2-8f5f-40c3aa06d998",
+      "name": "Domain roblox-ua[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-20 23:13 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ua.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--092629b3-f0d6-4809-b3e9-99cc79054c12",
+      "name": "Domain ui-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-20 23:14 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ui-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c0bb69a7-3a33-4d89-a42d-407c56ad2dc0",
+      "name": "Domain ai-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-21 07:06 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ai-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b7c4c5c2-0da2-4f1e-aaf1-f8059004745c",
+      "name": "Domain roblox-em[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-21 07:07 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-em.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c034db3c-ae4d-44cc-8db3-6c01645fbe1f",
+      "name": "Domain roblox-os[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-21 07:08 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-os.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b5c9c87d-e683-4ab8-8957-f4a94d8d92c8",
+      "name": "Domain co-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-23 00:27 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'co-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d33b0609-f5c8-4aed-a224-8fe7cc4035f6",
+      "name": "Domain roblox-or[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-23 00:27 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-or.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d0d82b96-3670-4d0a-ba45-098feb61da58",
+      "name": "Domain roblox-so[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-23 00:28 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-so.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--439d3ad7-ed47-49f4-a765-6d190e94a3ed",
+      "name": "Domain roblox-sa[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-24 04:38 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-sa.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--aba74c73-240a-4d8f-9f57-71db451587eb",
+      "name": "Domain roblox-su[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-24 04:38 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-su.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--65ded847-0f0e-441b-ad34-b39379cb985f",
+      "name": "Domain ww-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-24 04:39 UTC at the R1 registrar; 18 Nov 2026: held: registry status hold; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ww-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--c8e48066-fb38-49d4-a1ed-4ea98b4ccfb0",
+      "name": "Domain mu-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-25 20:54 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'mu-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9fa2fb65-cd3e-4f26-ae24-3a08bccb12ee",
+      "name": "Domain re-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-25 20:55 UTC at the R1 registrar; 18 Nov 2026: held: registry status hold; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 're-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--3b9a7419-bcf5-4eea-b488-494b1d6d525d",
+      "name": "Domain os-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-26 19:50 UTC at the R1 registrar; 18 Nov 2026: held: registry status hold; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'os-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--d339030a-32f2-4e62-896e-56ad95aacb4e",
+      "name": "Domain roblox-ma[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-26 19:51 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ma.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--de12800d-19f6-4b2f-966d-df401d119322",
+      "name": "Domain roblox-ue[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-26 19:51 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ue.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--16992d70-cf75-4b12-898c-02fc3b5fed76",
+      "name": "Domain ua-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-26 19:52 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ua-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--51943082-6cf3-4a7a-ac3c-2d1c008acb48",
+      "name": "Domain us-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-26 19:53 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'us-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--15613534-c266-4762-a295-a6d1947cc56a",
+      "name": "Domain roblox-ev[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-28 03:21 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-ev.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--13237c18-c444-4748-b04d-6dddc72a34ac",
+      "name": "Domain roblox-re[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-31 19:12 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-re.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--e3cee14e-6f0c-4e3a-8b50-f40629b8c7d8",
+      "name": "Domain ux-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-31 19:13 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ux-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--ed9f0f5a-9cbb-4a82-8416-d73f1f31f03e",
+      "name": "Domain vm-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-10-31 19:14 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'vm-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--de2a4dcb-e664-4dac-8c2c-effe6720c80e",
+      "name": "Domain sa-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-02 22:58 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'sa-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--a27d680d-7016-41a9-a850-5b35f27265c7",
+      "name": "Domain ue-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-02 22:58 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ue-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--2fa93214-24c4-4149-95e2-d94885a82585",
+      "name": "Domain uc-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-04 04:31 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'uc-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--bc25048b-216b-430c-9fdf-937827a48248",
+      "name": "Domain vn-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-04 04:31 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'vn-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--b5eff49e-b966-4bde-bc27-bec42d6f7c7e",
+      "name": "Domain roblox-uv[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-07 00:20 UTC at the R1 registrar; 18 Nov 2026: held: registry status hold; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-uv.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--df568524-6c7c-4c2a-8696-d417f732d71c",
+      "name": "Domain roblox-va[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-07 00:21 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'roblox-va.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--9a294249-5b44-434f-b7e9-dee2c09173d4",
+      "name": "Domain st-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-07 00:22 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'st-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--5b340bda-4c73-4627-a416-8d376ab0a97b",
+      "name": "Domain va-roblox[.]com",
+      "description": "Added in the 18 Nov 2026 update; R1 Roblox link names, found by checking every name of the R1 pattern; registered 2026-11-07 00:22 UTC at the R1 registrar; 18 Nov 2026: behind a delivery network; on no threat list NSS takes in (18 Nov 2026); NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'va-roblox.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
+      "labels": [
+        "NSS-KD-01"
+      ],
+      "external_references": [
+        {
+          "source_name": "NSS",
+          "external_id": "NSS-KD-01",
+          "url": "https://nsshq.com/research/game-account-phishing-children"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "created_by_ref": "identity--94a1c933-d5b7-4441-a595-87b9592880e7",
+      "created": "2026-11-18T00:00:00.000Z",
+      "modified": "2026-11-18T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ],
+      "id": "indicator--1f8dcfef-c5d0-4922-9685-3fad6b48c40c",
+      "name": "IP address 62[.]210[.]130[.]210",
+      "description": "Added in the 18 Nov 2026 update. Address that roblox-ai[.]com and roblox-as[.]com resolved to on 18 Nov 2026 with no delivery network in front (the only R1 names that do); NSS could not connect to it and has not read what it serves: watch it and the two names; NSS band not read for the update: watch row",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '62.210.130.210']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-18T00:00:00Z",
       "labels": [
         "NSS-KD-01"
       ],

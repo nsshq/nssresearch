@@ -1,0 +1,61 @@
+# NSS-BK-01: Numbered bank "auth gateways": one generator, 18 brands, an empty page for anyone without the link
+# https://nsshq.com/research/numbered-bank-auth-gateways
+# Published 2026-11-18. TLP:CLEAR. Licence CC BY 4.0, credit Nexus Sentinel Station (NSS).
+# DEFANGED: every value below is defanged so it cannot be clicked or resolved by accident.
+# Dots in names and addresses are written [.], http is written hxxp. Refang before use, for example:
+#   sed -e 's/\[\.\]/./g' -e 's/hxxp/http/' iocs.txt
+# 54 indicators, one per line, in the order of the paper's list. Context for each is in iocs.csv.
+selfverify[.]top
+member-identity-verification6645[.]xyz
+onlinemobileverification[.]support
+supportmailrecovery1[.]support
+710-auth-gateway[.]icu
+55835-access-auth[.]icu
+72940-access-auth[.]icu
+8228-great-lakes-acceweb-auth[.]info
+21198-great-lakes-acceweb-auth[.]info
+38341-access-auth[.]icu
+44102-access-auth[.]icu
+12145-auth-gateway[.]icu
+581-identityverif[.]top
+3097authgateway[.]xyz
+7008-grow-acceweb-auth[.]xyz
+085-identity-verif[.]icu
+87134-orrstown-acceweb-auth[.]site
+42708-fifth-third-auth-gateway[.]icu
+14021-auth-gateway[.]icu
+2210-auth-gateway[.]icu
+client-support-verification-7139[.]support
+user-verification-agent939[.]financial
+9353-safe-acceweb-auth[.]info
+24952usbankidentityverif[.]credit
+1954-regionsmember-auth[.]credit
+1404-bcb-acceweb-auth[.]live
+wellsfargo-risk-management[.]com
+nymcuverify[.]support
+94709-citi-auth-gateway[.]credit
+9401-auth-access[.]digital
+3992-pncacceweb-authent[.]net
+9130-auth-gateway[.]icu
+wellsfargosecure[.]support
+7714-auth-access[.]icu
+loginfreedommobile[.]com
+secure-online-verif[.]com
+19102-auth-gateway[.]icu
+19251-vz-auth-access[.]icu
+credential-verification-833[.]top
+digital-access-control32245[.]top
+secure-entry-auth57763[.]top
+11420-auth-gateway-verif[.]icu
+319-fifth-third-identity-verif[.]icu
+4856-bmo-auth-gateway[.]icu
+46208-capone-auth-gateway[.]icu
+51954-robins-member-auth[.]icu
+4581-chime-access-auth[.]icu
+11408-auth-access[.]icu
+bcufraud-prevention[.]org
+vacufraud-prevention[.]org
+96408-wells-acceweb-auth[.]creditcard
+loginfreedommobile[.]digital
+securemobileonlinesupport[.]com
+rlwqj6xm06ps4[.]xyz
